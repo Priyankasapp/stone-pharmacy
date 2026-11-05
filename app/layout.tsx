@@ -17,6 +17,10 @@ const acuminVariable = localFont({
   display:'swap'
 })
 
+const nightSerif = localFont({
+  src:'../public/fonts/NyghtSerif-Light.woff2',
+  variable:'--font-night-serif',
+})
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
@@ -33,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${poppins.variable} h-full ${acuminVariable.variable} ${clashGrotesk.variable } antialiased` }
+      className={`${poppins.variable} h-full ${acuminVariable.variable} ${nightSerif.variable} ${clashGrotesk.variable } antialiased` }
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col" suppressHydrationWarning>

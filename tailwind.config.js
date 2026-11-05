@@ -28,6 +28,7 @@ module.exports = {
         clash:['var(--font-clash-grotesk)', 'sans-serif'],
         poppins:['var(--font-poppins)'],
         acumin:['var(--font-acumin)'],
+        nightSerif:['var(--font-night-serif)']
       },
     },
   },

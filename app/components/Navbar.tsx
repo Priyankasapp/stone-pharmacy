@@ -9,7 +9,6 @@ import { MapIcon } from "./icons/MapIcon";
 import { LogoIcon } from "@/lib/icon";
 import { ChevronDown } from "./icons/ChevronDown";
 
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -32,42 +31,39 @@ const Navbar = () => {
   return (
     <nav
       aria-label="Main navigation"
-      className="absolute left-3 right-3 top-3 z-50 rounded-[28px] border border-neutral-200/30 bg-white px-4 py-2 shadow-[0_8px_30px_rgb(0,0,0,0.04),0_1px_2px_rgba(0,0,0,0.02)] sm:left-6 sm:right-6 sm:px-6 xl:top-6 xl:rounded-full xl:py-0"
+      className="fixed left-3 right-3 top-3 z-50 rounded-[28px] border border-neutral-200/30 bg-white px-4 py-2 shadow-[0_8px_30px_rgb(0,0,0,0.04),0_1px_2px_rgba(0,0,0,0.02)] sm:left-6 sm:right-6 sm:px-6 xl:top-6 xl:rounded-full xl:py-0"
     >
       <div className="flex h-14 items-center justify-between xl:h-20">
-        
-<div className="flex">
-    <LogoIcon />
-    <div className="hidden items-center gap-1 xl:flex">
-        
-          {navLink.map((link, index) => (
-            <button
-              key={link.label}
-              id={`dropdownDelayButton-${index}`}
-              data-dropdown-toggle={`dropdownDelay-${index}`}
-              data-dropdown-delay="500"
-              data-dropdown-trigger="hover"
-              className="group inline-flex items-center justify-center gap-2 rounded-base border border-transparent px-4 py-2.5 text-[14px] font-medium capitalize leading-[100%] tracking-[0.03em] text-charcoal shadow-xs transition-colors hover:text-summer-lime focus:outline-none"
-              type="button"
-            >
-              {link.label.trim()}
-              {link.isIcon && (
-                <ChevronDown className="h-2.5 w-2.5 transition-transform duration-200 group-hover:rotate-180" />
-              )}
-            </button>
-          ))}
+        <div className="flex">
+          <LogoIcon />
+          <div className="hidden items-center gap-1 xl:flex">
+            {navLink.map((link, index) => (
+              <button
+                key={link.label}
+                id={`dropdownDelayButton-${index}`}
+                data-dropdown-toggle={`dropdownDelay-${index}`}
+                data-dropdown-delay="500"
+                data-dropdown-trigger="hover"
+                className="group inline-flex items-center justify-center gap-2 rounded-base border border-transparent px-4 py-2.5 text-[14px] font-medium capitalize leading-[100%] tracking-[0.03em] text-charcoal shadow-xs transition-colors hover:text-summer-lime focus:outline-none"
+                type="button"
+              >
+                {link.label.trim()}
+                {link.isIcon && (
+                  <ChevronDown className="h-2.5 w-2.5 transition-transform duration-200 group-hover:rotate-180" />
+                )}
+              </button>
+            ))}
+          </div>
         </div>
-</div>
-        
 
-        <div className="hidden items-center gap-6 xl:flex">
-          {actions}
-        </div>
+        <div className="hidden items-center gap-6 xl:flex">{actions}</div>
 
         <button
           type="button"
           className="flex h-11 w-11 items-center justify-center rounded-full text-charcoal transition-colors hover:bg-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-charcoal xl:hidden"
-          aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-label={
+            isMenuOpen ? "Close navigation menu" : "Open navigation menu"
+          }
           aria-expanded={isMenuOpen}
           aria-controls="mobile-navigation"
           onClick={() => setIsMenuOpen((open) => !open)}
