@@ -1,0 +1,33 @@
+/** @type {import('tailwindcss').Config} */
+
+
+const customColors = [
+  'charcoal',
+  'summer-lime',
+  'ice-blue',
+]
+const colotTheme = customColors.reduce((acc, color )=>{
+  acc[color] = `var(--color-${color})`
+  return acc 
+}, {})
+
+module.exports = {
+  content: [
+      "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors:colotTheme,
+      fontFamily:{
+        clash:['var(--font-clash-grotesk)', 'sans-serif'],
+        poppins:['var(--font-poppins)']
+      },
+    },
+  },
+  plugins: [],
+}
+
