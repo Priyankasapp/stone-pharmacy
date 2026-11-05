@@ -5,9 +5,11 @@
 :root{
     /* colors  */
     --color-charcoal:#3E3D3E;
+    --color-dark-charcoal:#333333;
     --color-summer-lime:#A9CA27;  
     --color-ice-blue: #A7E8E8;
-
+    --color-white:#FFFFFF;
+    --color-silver:#B5B5B5;
 
 }
 @layer base {
@@ -16,8 +18,8 @@
         height: 100%;
         margin: 0;
         padding: 0px;
-        max-width: 1440px;
         width: 100%;
         position: relative;
     }
+
 }

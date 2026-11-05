@@ -5,6 +5,9 @@ const customColors = [
   'charcoal',
   'summer-lime',
   'ice-blue',
+  'dark-charcoal',
+  'ice-blue',
+  'silver',
 ]
 const colotTheme = customColors.reduce((acc, color )=>{
   acc[color] = `var(--color-${color})`
@@ -16,7 +19,6 @@ module.exports = {
       "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -24,7 +26,8 @@ module.exports = {
       colors:colotTheme,
       fontFamily:{
         clash:['var(--font-clash-grotesk)', 'sans-serif'],
-        poppins:['var(--font-poppins)']
+        poppins:['var(--font-poppins)'],
+        acumin:['var(--font-acumin)'],
       },
     },
   },

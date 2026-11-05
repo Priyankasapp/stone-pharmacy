@@ -11,6 +11,12 @@ const clashGrotesk = localFont({
 
 })
 
+const acuminVariable = localFont({
+  src:'../public/fonts/Acumin Variable Concept.ttf',
+  variable:'--font-acumin',
+  display:'swap'
+})
+
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
@@ -27,10 +33,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${poppins.variable} h-full  ${clashGrotesk.variable } antialiased` }
+      className={`${poppins.variable} h-full ${acuminVariable.variable} ${clashGrotesk.variable } antialiased` }
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }
