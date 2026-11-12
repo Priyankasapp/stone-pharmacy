@@ -73,8 +73,8 @@ export const PhoneIcon = () => {
           y2="37.0006"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BBEC6C" />
-          <stop offset="1" stop-color="#81B823" />
+          <stop stopColor="#BBEC6C" />
+          <stop offset="1" stopColor="#81B823" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_44_278"
@@ -84,8 +84,8 @@ export const PhoneIcon = () => {
           y2="27.656"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BBEC6C" />
-          <stop offset="1" stop-color="#81B823" />
+          <stop stopColor="#BBEC6C" />
+          <stop offset="1" stopColor="#81B823" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_44_278"
@@ -95,10 +95,10 @@ export const PhoneIcon = () => {
           y2="37.3978"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#026841" stop-opacity="0" />
-          <stop offset="0.2391" stop-color="#0A6644" stop-opacity="0.239" />
-          <stop offset="0.6113" stop-color="#20604D" stop-opacity="0.611" />
-          <stop offset="1" stop-color="#3E5959" />
+          <stop stopColor="#026841" stopOpacity="0" />
+          <stop offset="0.2391" stopColor="#0A6644" stopOpacity="0.239" />
+          <stop offset="0.6113" stopColor="#20604D" stopOpacity="0.611" />
+          <stop offset="1" stopColor="#3E5959" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_44_278"
@@ -108,10 +108,10 @@ export const PhoneIcon = () => {
           y2="49.9407"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#026841" stop-opacity="0" />
-          <stop offset="0.2391" stop-color="#0A6644" stop-opacity="0.239" />
-          <stop offset="0.6113" stop-color="#20604D" stop-opacity="0.611" />
-          <stop offset="1" stop-color="#3E5959" />
+          <stop stopColor="#026841" stopOpacity="0" />
+          <stop offset="0.2391" stopColor="#0A6644" stopOpacity="0.239" />
+          <stop offset="0.6113" stopColor="#20604D" stopOpacity="0.611" />
+          <stop offset="1" stopColor="#3E5959" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_44_278"
@@ -121,8 +121,8 @@ export const PhoneIcon = () => {
           y2="14.9068"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BBEC6C" />
-          <stop offset="1" stop-color="#81B823" />
+          <stop stopColor="#BBEC6C" />
+          <stop offset="1" stopColor="#81B823" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_44_278"
@@ -132,10 +132,10 @@ export const PhoneIcon = () => {
           y2="18.1289"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#026841" stop-opacity="0" />
-          <stop offset="0.2391" stop-color="#0A6644" stop-opacity="0.239" />
-          <stop offset="0.6113" stop-color="#20604D" stop-opacity="0.611" />
-          <stop offset="1" stop-color="#3E5959" />
+          <stop stopColor="#026841" stopOpacity="0" />
+          <stop offset="0.2391" stopColor="#0A6644" stopOpacity="0.239" />
+          <stop offset="0.6113" stopColor="#20604D" stopOpacity="0.611" />
+          <stop offset="1" stopColor="#3E5959" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_44_278"
@@ -145,10 +145,10 @@ export const PhoneIcon = () => {
           y2="13.4941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#026841" stop-opacity="0" />
-          <stop offset="0.2391" stop-color="#0A6644" stop-opacity="0.239" />
-          <stop offset="0.6113" stop-color="#20604D" stop-opacity="0.611" />
-          <stop offset="1" stop-color="#3E5959" />
+          <stop stopColor="#026841" stopOpacity="0" />
+          <stop offset="0.2391" stopColor="#0A6644" stopOpacity="0.239" />
+          <stop offset="0.6113" stopColor="#20604D" stopOpacity="0.611" />
+          <stop offset="1" stopColor="#3E5959" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_44_278"
@@ -158,8 +158,8 @@ export const PhoneIcon = () => {
           y2="39.8224"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BBEC6C" />
-          <stop offset="1" stop-color="#81B823" />
+          <stop stopColor="#BBEC6C" />
+          <stop offset="1" stopColor="#81B823" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_44_278"
@@ -169,10 +169,10 @@ export const PhoneIcon = () => {
           y2="43.0436"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#026841" stop-opacity="0" />
-          <stop offset="0.2391" stop-color="#0A6644" stop-opacity="0.239" />
-          <stop offset="0.6113" stop-color="#20604D" stop-opacity="0.611" />
-          <stop offset="1" stop-color="#3E5959" />
+          <stop stopColor="#026841" stopOpacity="0" />
+          <stop offset="0.2391" stopColor="#0A6644" stopOpacity="0.239" />
+          <stop offset="0.6113" stopColor="#20604D" stopOpacity="0.611" />
+          <stop offset="1" stopColor="#3E5959" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_44_278"
@@ -182,10 +182,10 @@ export const PhoneIcon = () => {
           y2="38.4088"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#026841" stop-opacity="0" />
-          <stop offset="0.2391" stop-color="#0A6644" stop-opacity="0.239" />
-          <stop offset="0.6113" stop-color="#20604D" stop-opacity="0.611" />
-          <stop offset="1" stop-color="#3E5959" />
+          <stop stopColor="#026841" stopOpacity="0" />
+          <stop offset="0.2391" stopColor="#0A6644" stopOpacity="0.239" />
+          <stop offset="0.6113" stopColor="#20604D" stopOpacity="0.611" />
+          <stop offset="1" stopColor="#3E5959" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_44_278"
@@ -195,10 +195,10 @@ export const PhoneIcon = () => {
           y2="47.6394"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#026841" stop-opacity="0" />
-          <stop offset="0.2391" stop-color="#0A6644" stop-opacity="0.239" />
-          <stop offset="0.6113" stop-color="#20604D" stop-opacity="0.611" />
-          <stop offset="1" stop-color="#3E5959" />
+          <stop stopColor="#026841" stopOpacity="0" />
+          <stop offset="0.2391" stopColor="#0A6644" stopOpacity="0.239" />
+          <stop offset="0.6113" stopColor="#20604D" stopOpacity="0.611" />
+          <stop offset="1" stopColor="#3E5959" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_44_278"
@@ -208,8 +208,8 @@ export const PhoneIcon = () => {
           y2="17.0182"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FEF0AE" />
-          <stop offset="1" stop-color="#FBC56D" />
+          <stop stopColor="#FEF0AE" />
+          <stop offset="1" stopColor="#FBC56D" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_44_278"
@@ -219,8 +219,8 @@ export const PhoneIcon = () => {
           y2="12.7039"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FEF0AE" />
-          <stop offset="1" stop-color="#FBC56D" />
+          <stop stopColor="#FEF0AE" />
+          <stop offset="1" stopColor="#FBC56D" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_44_278"
@@ -230,8 +230,8 @@ export const PhoneIcon = () => {
           y2="7.79307"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FEF0AE" />
-          <stop offset="1" stop-color="#FBC56D" />
+          <stop stopColor="#FEF0AE" />
+          <stop offset="1" stopColor="#FBC56D" />
         </linearGradient>
       </defs>
     </svg>

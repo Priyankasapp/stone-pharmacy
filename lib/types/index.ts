@@ -4,3 +4,8 @@ export interface NavLinks {
     isIcon:boolean;
     
 }
+export interface FaqsData{
+    id: string;
+    question:string;
+    answer?:string;
+}

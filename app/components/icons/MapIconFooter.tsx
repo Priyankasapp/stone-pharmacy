@@ -71,12 +71,12 @@ export const MapIconFooter = () => {
           y2="42.7438"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C1E9AF" />
-          <stop offset="0.1072" stop-color="#B6E4AA" />
-          <stop offset="0.2935" stop-color="#99D69E" />
-          <stop offset="0.5365" stop-color="#6BC18A" />
-          <stop offset="0.8238" stop-color="#2CA36F" />
-          <stop offset="1" stop-color="#02905D" />
+          <stop stopColor="#C1E9AF" />
+          <stop offset="0.1072" stopColor="#B6E4AA" />
+          <stop offset="0.2935" stopColor="#99D69E" />
+          <stop offset="0.5365" stopColor="#6BC18A" />
+          <stop offset="0.8238" stopColor="#2CA36F" />
+          <stop offset="1" stopColor="#02905D" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_44_228"
@@ -86,13 +86,13 @@ export const MapIconFooter = () => {
           y2="48.9142"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#026841" stop-opacity="0" />
-          <stop offset="0.2182" stop-color="#026841" stop-opacity="0.033" />
-          <stop offset="0.4099" stop-color="#026841" stop-opacity="0.137" />
-          <stop offset="0.5916" stop-color="#026841" stop-opacity="0.31" />
-          <stop offset="0.7671" stop-color="#026841" stop-opacity="0.553" />
-          <stop offset="0.9367" stop-color="#026841" stop-opacity="0.864" />
-          <stop offset="1" stop-color="#026841" />
+          <stop stopColor="#026841" stopOpacity="0" />
+          <stop offset="0.2182" stopColor="#026841" stopOpacity="0.033" />
+          <stop offset="0.4099" stopColor="#026841" stopOpacity="0.137" />
+          <stop offset="0.5916" stopColor="#026841" stopOpacity="0.31" />
+          <stop offset="0.7671" stopColor="#026841" stopOpacity="0.553" />
+          <stop offset="0.9367" stopColor="#026841" stopOpacity="0.864" />
+          <stop offset="1" stopColor="#026841" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_44_228"
@@ -102,13 +102,13 @@ export const MapIconFooter = () => {
           y2="41.4195"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#026841" stop-opacity="0" />
-          <stop offset="0.2182" stop-color="#026841" stop-opacity="0.033" />
-          <stop offset="0.4099" stop-color="#026841" stop-opacity="0.137" />
-          <stop offset="0.5916" stop-color="#026841" stop-opacity="0.31" />
-          <stop offset="0.7671" stop-color="#026841" stop-opacity="0.553" />
-          <stop offset="0.9367" stop-color="#026841" stop-opacity="0.864" />
-          <stop offset="1" stop-color="#026841" />
+          <stop stopColor="#026841" stopOpacity="0" />
+          <stop offset="0.2182" stopColor="#026841" stopOpacity="0.033" />
+          <stop offset="0.4099" stopColor="#026841" stopOpacity="0.137" />
+          <stop offset="0.5916" stopColor="#026841" stopOpacity="0.31" />
+          <stop offset="0.7671" stopColor="#026841" stopOpacity="0.553" />
+          <stop offset="0.9367" stopColor="#026841" stopOpacity="0.864" />
+          <stop offset="1" stopColor="#026841" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_44_228"
@@ -118,13 +118,13 @@ export const MapIconFooter = () => {
           y2="36.6981"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#026841" stop-opacity="0" />
-          <stop offset="0.2182" stop-color="#026841" stop-opacity="0.033" />
-          <stop offset="0.4099" stop-color="#026841" stop-opacity="0.137" />
-          <stop offset="0.5916" stop-color="#026841" stop-opacity="0.31" />
-          <stop offset="0.7671" stop-color="#026841" stop-opacity="0.553" />
-          <stop offset="0.9367" stop-color="#026841" stop-opacity="0.864" />
-          <stop offset="1" stop-color="#026841" />
+          <stop stopColor="#026841" stopOpacity="0" />
+          <stop offset="0.2182" stopColor="#026841" stopOpacity="0.033" />
+          <stop offset="0.4099" stopColor="#026841" stopOpacity="0.137" />
+          <stop offset="0.5916" stopColor="#026841" stopOpacity="0.31" />
+          <stop offset="0.7671" stopColor="#026841" stopOpacity="0.553" />
+          <stop offset="0.9367" stopColor="#026841" stopOpacity="0.864" />
+          <stop offset="1" stopColor="#026841" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_44_228"
@@ -134,10 +134,10 @@ export const MapIconFooter = () => {
           y2="24.6133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE646F" />
-          <stop offset="0.235" stop-color="#FA5964" />
-          <stop offset="0.6415" stop-color="#EF3D49" />
-          <stop offset="1" stop-color="#E41F2D" />
+          <stop stopColor="#FE646F" />
+          <stop offset="0.235" stopColor="#FA5964" />
+          <stop offset="0.6415" stopColor="#EF3D49" />
+          <stop offset="1" stopColor="#E41F2D" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_44_228"
@@ -147,10 +147,10 @@ export const MapIconFooter = () => {
           y2="7.91807"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE646F" />
-          <stop offset="0.235" stop-color="#FA5964" />
-          <stop offset="0.6415" stop-color="#EF3D49" />
-          <stop offset="1" stop-color="#E41F2D" />
+          <stop stopColor="#FE646F" />
+          <stop offset="0.235" stopColor="#FA5964" />
+          <stop offset="0.6415" stopColor="#EF3D49" />
+          <stop offset="1" stopColor="#E41F2D" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_44_228"
@@ -160,12 +160,12 @@ export const MapIconFooter = () => {
           y2="22.6524"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A72B2B" stop-opacity="0" />
-          <stop offset="0.1561" stop-color="#A32B2A" stop-opacity="0.066" />
-          <stop offset="0.386" stop-color="#982C29" stop-opacity="0.248" />
-          <stop offset="0.6615" stop-color="#872F28" stop-opacity="0.545" />
-          <stop offset="0.97" stop-color="#6F3226" stop-opacity="0.956" />
-          <stop offset="1" stop-color="#6D3326" />
+          <stop stopColor="#A72B2B" stopOpacity="0" />
+          <stop offset="0.1561" stopColor="#A32B2A" stopOpacity="0.066" />
+          <stop offset="0.386" stopColor="#982C29" stopOpacity="0.248" />
+          <stop offset="0.6615" stopColor="#872F28" stopOpacity="0.545" />
+          <stop offset="0.97" stopColor="#6F3226" stopOpacity="0.956" />
+          <stop offset="1" stopColor="#6D3326" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_44_228"
@@ -175,12 +175,12 @@ export const MapIconFooter = () => {
           y2="39.6301"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#A72B2B" stop-opacity="0" />
-          <stop offset="0.1561" stop-color="#A32B2A" stop-opacity="0.066" />
-          <stop offset="0.386" stop-color="#982C29" stop-opacity="0.248" />
-          <stop offset="0.6615" stop-color="#872F28" stop-opacity="0.545" />
-          <stop offset="0.97" stop-color="#6F3226" stop-opacity="0.956" />
-          <stop offset="1" stop-color="#6D3326" />
+          <stop stopColor="#A72B2B" stopOpacity="0" />
+          <stop offset="0.1561" stopColor="#A32B2A" stopOpacity="0.066" />
+          <stop offset="0.386" stopColor="#982C29" stopOpacity="0.248" />
+          <stop offset="0.6615" stopColor="#872F28" stopOpacity="0.545" />
+          <stop offset="0.97" stopColor="#6F3226" stopOpacity="0.956" />
+          <stop offset="1" stopColor="#6D3326" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_44_228"
@@ -190,8 +190,8 @@ export const MapIconFooter = () => {
           y2="22.849"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3FAFF" />
-          <stop offset="1" stop-color="#D5DAF3" />
+          <stop stopColor="#F3FAFF" />
+          <stop offset="1" stopColor="#D5DAF3" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_44_228"
@@ -201,10 +201,10 @@ export const MapIconFooter = () => {
           y2="18.849"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE646F" />
-          <stop offset="0.235" stop-color="#FA5964" />
-          <stop offset="0.6415" stop-color="#EF3D49" />
-          <stop offset="1" stop-color="#E41F2D" />
+          <stop stopColor="#FE646F" />
+          <stop offset="0.235" stopColor="#FA5964" />
+          <stop offset="0.6415" stopColor="#EF3D49" />
+          <stop offset="1" stopColor="#E41F2D" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_44_228"
@@ -214,14 +214,14 @@ export const MapIconFooter = () => {
           y2="27.6857"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DBD5EF" stop-opacity="0" />
-          <stop offset="0.2667" stop-color="#D8D2EC" stop-opacity="0.023" />
-          <stop offset="0.4431" stop-color="#D1C9E2" stop-opacity="0.098" />
-          <stop offset="0.5933" stop-color="#C4B9D1" stop-opacity="0.225" />
-          <stop offset="0.7288" stop-color="#B2A4BA" stop-opacity="0.405" />
-          <stop offset="0.8545" stop-color="#9A889C" stop-opacity="0.638" />
-          <stop offset="0.9713" stop-color="#7E6678" stop-opacity="0.92" />
-          <stop offset="1" stop-color="#765D6E" />
+          <stop stopColor="#DBD5EF" stopOpacity="0" />
+          <stop offset="0.2667" stopColor="#D8D2EC" stopOpacity="0.023" />
+          <stop offset="0.4431" stopColor="#D1C9E2" stopOpacity="0.098" />
+          <stop offset="0.5933" stopColor="#C4B9D1" stopOpacity="0.225" />
+          <stop offset="0.7288" stopColor="#B2A4BA" stopOpacity="0.405" />
+          <stop offset="0.8545" stopColor="#9A889C" stopOpacity="0.638" />
+          <stop offset="0.9713" stopColor="#7E6678" stopOpacity="0.92" />
+          <stop offset="1" stopColor="#765D6E" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_44_228"
@@ -231,14 +231,14 @@ export const MapIconFooter = () => {
           y2="17.9747"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DBD5EF" stop-opacity="0" />
-          <stop offset="0.2667" stop-color="#D8D2EC" stop-opacity="0.023" />
-          <stop offset="0.4431" stop-color="#D1C9E2" stop-opacity="0.098" />
-          <stop offset="0.5933" stop-color="#C4B9D1" stop-opacity="0.225" />
-          <stop offset="0.7288" stop-color="#B2A4BA" stop-opacity="0.405" />
-          <stop offset="0.8545" stop-color="#9A889C" stop-opacity="0.638" />
-          <stop offset="0.9713" stop-color="#7E6678" stop-opacity="0.92" />
-          <stop offset="1" stop-color="#765D6E" />
+          <stop stopColor="#DBD5EF" stopOpacity="0" />
+          <stop offset="0.2667" stopColor="#D8D2EC" stopOpacity="0.023" />
+          <stop offset="0.4431" stopColor="#D1C9E2" stopOpacity="0.098" />
+          <stop offset="0.5933" stopColor="#C4B9D1" stopOpacity="0.225" />
+          <stop offset="0.7288" stopColor="#B2A4BA" stopOpacity="0.405" />
+          <stop offset="0.8545" stopColor="#9A889C" stopOpacity="0.638" />
+          <stop offset="0.9713" stopColor="#7E6678" stopOpacity="0.92" />
+          <stop offset="1" stopColor="#765D6E" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_44_228"
@@ -248,14 +248,14 @@ export const MapIconFooter = () => {
           y2="24.6808"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#DBD5EF" stop-opacity="0" />
-          <stop offset="0.2667" stop-color="#D8D2EC" stop-opacity="0.023" />
-          <stop offset="0.4431" stop-color="#D1C9E2" stop-opacity="0.098" />
-          <stop offset="0.5933" stop-color="#C4B9D1" stop-opacity="0.225" />
-          <stop offset="0.7288" stop-color="#B2A4BA" stop-opacity="0.405" />
-          <stop offset="0.8545" stop-color="#9A889C" stop-opacity="0.638" />
-          <stop offset="0.9713" stop-color="#7E6678" stop-opacity="0.92" />
-          <stop offset="1" stop-color="#765D6E" />
+          <stop stopColor="#DBD5EF" stopOpacity="0" />
+          <stop offset="0.2667" stopColor="#D8D2EC" stopOpacity="0.023" />
+          <stop offset="0.4431" stopColor="#D1C9E2" stopOpacity="0.098" />
+          <stop offset="0.5933" stopColor="#C4B9D1" stopOpacity="0.225" />
+          <stop offset="0.7288" stopColor="#B2A4BA" stopOpacity="0.405" />
+          <stop offset="0.8545" stopColor="#9A889C" stopOpacity="0.638" />
+          <stop offset="0.9713" stopColor="#7E6678" stopOpacity="0.92" />
+          <stop offset="1" stopColor="#765D6E" />
         </linearGradient>
       </defs>
     </svg>

@@ -1,4 +1,4 @@
-import { NavLinks } from "../types";
+import { FaqsData, NavLinks } from "../types";
 
 export const navLink: NavLinks[] = [
     {
@@ -23,4 +23,32 @@ export const navLink: NavLinks[] = [
     }
     
 
+]
+
+export const faqsData: FaqsData[] = [
+    {
+        id:'',
+        question:'How can Pharmacy First save time?',
+        answer:'Pharmacy First will help you get seen by a  healthcare professional quickly.Instead of waiting for a GP appointment, going to A&E or attending out-of-hours NHS services '
+    },
+    {
+        id:'',
+        question:'What are the benefits of Pharmacy First?',
+        answer:''
+    },
+    {
+        id:'',
+        question:'How can Pharmacy First save time?',
+        answer:''
+    },
+    {
+        id:'',
+        question:'How can Pharmacy First save time?',
+        answer:''
+    },
+    {
+        id:'',
+        question:'How can Pharmacy First save time?',
+        answer:''
+    }
 ]

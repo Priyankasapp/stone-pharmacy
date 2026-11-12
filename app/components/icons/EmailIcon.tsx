@@ -91,8 +91,8 @@ export const EmailIcon = () => {
           y2="37.1888"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FEF0AE" />
-          <stop offset="1" stop-color="#FAC600" />
+          <stop stopColor="#FEF0AE" />
+          <stop offset="1" stopColor="#FAC600" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_44_250"
@@ -102,15 +102,15 @@ export const EmailIcon = () => {
           y2="15.4975"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE9738" stop-opacity="0" />
-          <stop offset="0.1025" stop-color="#FE9738" stop-opacity="0.02" />
-          <stop offset="0.2265" stop-color="#FE9738" stop-opacity="0.078" />
-          <stop offset="0.3615" stop-color="#FE9738" stop-opacity="0.175" />
-          <stop offset="0.5046" stop-color="#FE9738" stop-opacity="0.31" />
-          <stop offset="0.6539" stop-color="#FE9738" stop-opacity="0.483" />
-          <stop offset="0.8085" stop-color="#FE9738" stop-opacity="0.695" />
-          <stop offset="0.9645" stop-color="#FE9738" stop-opacity="0.94" />
-          <stop offset="1" stop-color="#FE9738" />
+          <stop stopColor="#FE9738" stopOpacity="0" />
+          <stop offset="0.1025" stopColor="#FE9738" stopOpacity="0.02" />
+          <stop offset="0.2265" stopColor="#FE9738" stopOpacity="0.078" />
+          <stop offset="0.3615" stopColor="#FE9738" stopOpacity="0.175" />
+          <stop offset="0.5046" stopColor="#FE9738" stopOpacity="0.31" />
+          <stop offset="0.6539" stopColor="#FE9738" stopOpacity="0.483" />
+          <stop offset="0.8085" stopColor="#FE9738" stopOpacity="0.695" />
+          <stop offset="0.9645" stopColor="#FE9738" stopOpacity="0.94" />
+          <stop offset="1" stopColor="#FE9738" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_44_250"
@@ -120,15 +120,15 @@ export const EmailIcon = () => {
           y2="27.385"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE9738" stop-opacity="0" />
-          <stop offset="0.1025" stop-color="#FE9738" stop-opacity="0.02" />
-          <stop offset="0.2265" stop-color="#FE9738" stop-opacity="0.078" />
-          <stop offset="0.3615" stop-color="#FE9738" stop-opacity="0.175" />
-          <stop offset="0.5046" stop-color="#FE9738" stop-opacity="0.31" />
-          <stop offset="0.6539" stop-color="#FE9738" stop-opacity="0.483" />
-          <stop offset="0.8085" stop-color="#FE9738" stop-opacity="0.695" />
-          <stop offset="0.9645" stop-color="#FE9738" stop-opacity="0.94" />
-          <stop offset="1" stop-color="#FE9738" />
+          <stop stopColor="#FE9738" stopOpacity="0" />
+          <stop offset="0.1025" stopColor="#FE9738" stopOpacity="0.02" />
+          <stop offset="0.2265" stopColor="#FE9738" stopOpacity="0.078" />
+          <stop offset="0.3615" stopColor="#FE9738" stopOpacity="0.175" />
+          <stop offset="0.5046" stopColor="#FE9738" stopOpacity="0.31" />
+          <stop offset="0.6539" stopColor="#FE9738" stopOpacity="0.483" />
+          <stop offset="0.8085" stopColor="#FE9738" stopOpacity="0.695" />
+          <stop offset="0.9645" stopColor="#FE9738" stopOpacity="0.94" />
+          <stop offset="1" stopColor="#FE9738" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_44_250"
@@ -138,8 +138,8 @@ export const EmailIcon = () => {
           y2="38.5949"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FEF0AE" />
-          <stop offset="1" stop-color="#FAC600" />
+          <stop stopColor="#FEF0AE" />
+          <stop offset="1" stopColor="#FAC600" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_44_250"
@@ -149,15 +149,15 @@ export const EmailIcon = () => {
           y2="35.0427"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE9738" stop-opacity="0" />
-          <stop offset="0.1025" stop-color="#FE9738" stop-opacity="0.02" />
-          <stop offset="0.2265" stop-color="#FE9738" stop-opacity="0.078" />
-          <stop offset="0.3615" stop-color="#FE9738" stop-opacity="0.175" />
-          <stop offset="0.5046" stop-color="#FE9738" stop-opacity="0.31" />
-          <stop offset="0.6539" stop-color="#FE9738" stop-opacity="0.483" />
-          <stop offset="0.8085" stop-color="#FE9738" stop-opacity="0.695" />
-          <stop offset="0.9645" stop-color="#FE9738" stop-opacity="0.94" />
-          <stop offset="1" stop-color="#FE9738" />
+          <stop stopColor="#FE9738" stopOpacity="0" />
+          <stop offset="0.1025" stopColor="#FE9738" stopOpacity="0.02" />
+          <stop offset="0.2265" stopColor="#FE9738" stopOpacity="0.078" />
+          <stop offset="0.3615" stopColor="#FE9738" stopOpacity="0.175" />
+          <stop offset="0.5046" stopColor="#FE9738" stopOpacity="0.31" />
+          <stop offset="0.6539" stopColor="#FE9738" stopOpacity="0.483" />
+          <stop offset="0.8085" stopColor="#FE9738" stopOpacity="0.695" />
+          <stop offset="0.9645" stopColor="#FE9738" stopOpacity="0.94" />
+          <stop offset="1" stopColor="#FE9738" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_44_250"
@@ -167,15 +167,15 @@ export const EmailIcon = () => {
           y2="20.5154"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE9738" stop-opacity="0" />
-          <stop offset="0.1025" stop-color="#FE9738" stop-opacity="0.02" />
-          <stop offset="0.2265" stop-color="#FE9738" stop-opacity="0.078" />
-          <stop offset="0.3615" stop-color="#FE9738" stop-opacity="0.175" />
-          <stop offset="0.5046" stop-color="#FE9738" stop-opacity="0.31" />
-          <stop offset="0.6539" stop-color="#FE9738" stop-opacity="0.483" />
-          <stop offset="0.8085" stop-color="#FE9738" stop-opacity="0.695" />
-          <stop offset="0.9645" stop-color="#FE9738" stop-opacity="0.94" />
-          <stop offset="1" stop-color="#FE9738" />
+          <stop stopColor="#FE9738" stopOpacity="0" />
+          <stop offset="0.1025" stopColor="#FE9738" stopOpacity="0.02" />
+          <stop offset="0.2265" stopColor="#FE9738" stopOpacity="0.078" />
+          <stop offset="0.3615" stopColor="#FE9738" stopOpacity="0.175" />
+          <stop offset="0.5046" stopColor="#FE9738" stopOpacity="0.31" />
+          <stop offset="0.6539" stopColor="#FE9738" stopOpacity="0.483" />
+          <stop offset="0.8085" stopColor="#FE9738" stopOpacity="0.695" />
+          <stop offset="0.9645" stopColor="#FE9738" stopOpacity="0.94" />
+          <stop offset="1" stopColor="#FE9738" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_44_250"
@@ -185,15 +185,15 @@ export const EmailIcon = () => {
           y2="14.7949"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE9738" stop-opacity="0" />
-          <stop offset="0.1025" stop-color="#FE9738" stop-opacity="0.02" />
-          <stop offset="0.2265" stop-color="#FE9738" stop-opacity="0.078" />
-          <stop offset="0.3615" stop-color="#FE9738" stop-opacity="0.175" />
-          <stop offset="0.5046" stop-color="#FE9738" stop-opacity="0.31" />
-          <stop offset="0.6539" stop-color="#FE9738" stop-opacity="0.483" />
-          <stop offset="0.8085" stop-color="#FE9738" stop-opacity="0.695" />
-          <stop offset="0.9645" stop-color="#FE9738" stop-opacity="0.94" />
-          <stop offset="1" stop-color="#FE9738" />
+          <stop stopColor="#FE9738" stopOpacity="0" />
+          <stop offset="0.1025" stopColor="#FE9738" stopOpacity="0.02" />
+          <stop offset="0.2265" stopColor="#FE9738" stopOpacity="0.078" />
+          <stop offset="0.3615" stopColor="#FE9738" stopOpacity="0.175" />
+          <stop offset="0.5046" stopColor="#FE9738" stopOpacity="0.31" />
+          <stop offset="0.6539" stopColor="#FE9738" stopOpacity="0.483" />
+          <stop offset="0.8085" stopColor="#FE9738" stopOpacity="0.695" />
+          <stop offset="0.9645" stopColor="#FE9738" stopOpacity="0.94" />
+          <stop offset="1" stopColor="#FE9738" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_44_250"
@@ -203,8 +203,8 @@ export const EmailIcon = () => {
           y2="21.6138"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FEF0AE" />
-          <stop offset="1" stop-color="#FAC600" />
+          <stop stopColor="#FEF0AE" />
+          <stop offset="1" stopColor="#FAC600" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_44_250"
@@ -214,15 +214,15 @@ export const EmailIcon = () => {
           y2="19.8963"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FEF0AE" stop-opacity="0" />
-          <stop offset="0.099908" stop-color="#FEF0AE" stop-opacity="0.021" />
-          <stop offset="0.224" stop-color="#FEF0AE" stop-opacity="0.081" />
-          <stop offset="0.3608" stop-color="#FEF0AE" stop-opacity="0.181" />
-          <stop offset="0.507" stop-color="#FEF0AE" stop-opacity="0.32" />
-          <stop offset="0.6605" stop-color="#FEF0AE" stop-opacity="0.498" />
-          <stop offset="0.8202" stop-color="#FEF0AE" stop-opacity="0.717" />
-          <stop offset="0.9822" stop-color="#FEF0AE" stop-opacity="0.97" />
-          <stop offset="1" stop-color="#FEF0AE" />
+          <stop stopColor="#FEF0AE" stopOpacity="0" />
+          <stop offset="0.099908" stopColor="#FEF0AE" stopOpacity="0.021" />
+          <stop offset="0.224" stopColor="#FEF0AE" stopOpacity="0.081" />
+          <stop offset="0.3608" stopColor="#FEF0AE" stopOpacity="0.181" />
+          <stop offset="0.507" stopColor="#FEF0AE" stopOpacity="0.32" />
+          <stop offset="0.6605" stopColor="#FEF0AE" stopOpacity="0.498" />
+          <stop offset="0.8202" stopColor="#FEF0AE" stopOpacity="0.717" />
+          <stop offset="0.9822" stopColor="#FEF0AE" stopOpacity="0.97" />
+          <stop offset="1" stopColor="#FEF0AE" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_44_250"
@@ -232,15 +232,15 @@ export const EmailIcon = () => {
           y2="33.688"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE9738" stop-opacity="0" />
-          <stop offset="0.1025" stop-color="#FE9738" stop-opacity="0.02" />
-          <stop offset="0.2265" stop-color="#FE9738" stop-opacity="0.078" />
-          <stop offset="0.3615" stop-color="#FE9738" stop-opacity="0.175" />
-          <stop offset="0.5046" stop-color="#FE9738" stop-opacity="0.31" />
-          <stop offset="0.6539" stop-color="#FE9738" stop-opacity="0.483" />
-          <stop offset="0.8085" stop-color="#FE9738" stop-opacity="0.695" />
-          <stop offset="0.9645" stop-color="#FE9738" stop-opacity="0.94" />
-          <stop offset="1" stop-color="#FE9738" />
+          <stop stopColor="#FE9738" stopOpacity="0" />
+          <stop offset="0.1025" stopColor="#FE9738" stopOpacity="0.02" />
+          <stop offset="0.2265" stopColor="#FE9738" stopOpacity="0.078" />
+          <stop offset="0.3615" stopColor="#FE9738" stopOpacity="0.175" />
+          <stop offset="0.5046" stopColor="#FE9738" stopOpacity="0.31" />
+          <stop offset="0.6539" stopColor="#FE9738" stopOpacity="0.483" />
+          <stop offset="0.8085" stopColor="#FE9738" stopOpacity="0.695" />
+          <stop offset="0.9645" stopColor="#FE9738" stopOpacity="0.94" />
+          <stop offset="1" stopColor="#FE9738" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_44_250"
@@ -250,15 +250,15 @@ export const EmailIcon = () => {
           y2="24.4964"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FE9738" stop-opacity="0" />
-          <stop offset="0.1025" stop-color="#FE9738" stop-opacity="0.02" />
-          <stop offset="0.2265" stop-color="#FE9738" stop-opacity="0.078" />
-          <stop offset="0.3615" stop-color="#FE9738" stop-opacity="0.175" />
-          <stop offset="0.5046" stop-color="#FE9738" stop-opacity="0.31" />
-          <stop offset="0.6539" stop-color="#FE9738" stop-opacity="0.483" />
-          <stop offset="0.8085" stop-color="#FE9738" stop-opacity="0.695" />
-          <stop offset="0.9645" stop-color="#FE9738" stop-opacity="0.94" />
-          <stop offset="1" stop-color="#FE9738" />
+          <stop stopColor="#FE9738" stopOpacity="0" />
+          <stop offset="0.1025" stopColor="#FE9738" stopOpacity="0.02" />
+          <stop offset="0.2265" stopColor="#FE9738" stopOpacity="0.078" />
+          <stop offset="0.3615" stopColor="#FE9738" stopOpacity="0.175" />
+          <stop offset="0.5046" stopColor="#FE9738" stopOpacity="0.31" />
+          <stop offset="0.6539" stopColor="#FE9738" stopOpacity="0.483" />
+          <stop offset="0.8085" stopColor="#FE9738" stopOpacity="0.695" />
+          <stop offset="0.9645" stopColor="#FE9738" stopOpacity="0.94" />
+          <stop offset="1" stopColor="#FE9738" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_44_250"
@@ -268,13 +268,13 @@ export const EmailIcon = () => {
           y2="40.4632"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C8EFFE" />
-          <stop offset="0.1027" stop-color="#C0EDFD" />
-          <stop offset="0.258" stop-color="#ABEAFD" />
-          <stop offset="0.4465" stop-color="#89E5FD" />
-          <stop offset="0.6612" stop-color="#5ADDFC" />
-          <stop offset="0.8947" stop-color="#1ED4FB" />
-          <stop offset="1" stop-color="#01D0FB" />
+          <stop stopColor="#C8EFFE" />
+          <stop offset="0.1027" stopColor="#C0EDFD" />
+          <stop offset="0.258" stopColor="#ABEAFD" />
+          <stop offset="0.4465" stopColor="#89E5FD" />
+          <stop offset="0.6612" stopColor="#5ADDFC" />
+          <stop offset="0.8947" stopColor="#1ED4FB" />
+          <stop offset="1" stopColor="#01D0FB" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_44_250"
@@ -284,16 +284,16 @@ export const EmailIcon = () => {
           y2="37.2027"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0290CF" stop-opacity="0" />
-          <stop offset="0.2191" stop-color="#0290CF" stop-opacity="0.013" />
-          <stop offset="0.3639" stop-color="#0290CF" stop-opacity="0.056" />
-          <stop offset="0.4873" stop-color="#0290CF" stop-opacity="0.128" />
-          <stop offset="0.5987" stop-color="#0290CF" stop-opacity="0.231" />
-          <stop offset="0.7019" stop-color="#0290CF" stop-opacity="0.364" />
-          <stop offset="0.7993" stop-color="#0290CF" stop-opacity="0.528" />
-          <stop offset="0.892" stop-color="#0290CF" stop-opacity="0.722" />
-          <stop offset="0.9788" stop-color="#0290CF" stop-opacity="0.941" />
-          <stop offset="1" stop-color="#0290CF" />
+          <stop stopColor="#0290CF" stopOpacity="0" />
+          <stop offset="0.2191" stopColor="#0290CF" stopOpacity="0.013" />
+          <stop offset="0.3639" stopColor="#0290CF" stopOpacity="0.056" />
+          <stop offset="0.4873" stopColor="#0290CF" stopOpacity="0.128" />
+          <stop offset="0.5987" stopColor="#0290CF" stopOpacity="0.231" />
+          <stop offset="0.7019" stopColor="#0290CF" stopOpacity="0.364" />
+          <stop offset="0.7993" stopColor="#0290CF" stopOpacity="0.528" />
+          <stop offset="0.892" stopColor="#0290CF" stopOpacity="0.722" />
+          <stop offset="0.9788" stopColor="#0290CF" stopOpacity="0.941" />
+          <stop offset="1" stopColor="#0290CF" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_44_250"
@@ -303,16 +303,16 @@ export const EmailIcon = () => {
           y2="40.3607"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0290CF" stop-opacity="0" />
-          <stop offset="0.2191" stop-color="#0290CF" stop-opacity="0.013" />
-          <stop offset="0.3639" stop-color="#0290CF" stop-opacity="0.056" />
-          <stop offset="0.4873" stop-color="#0290CF" stop-opacity="0.128" />
-          <stop offset="0.5987" stop-color="#0290CF" stop-opacity="0.231" />
-          <stop offset="0.7019" stop-color="#0290CF" stop-opacity="0.364" />
-          <stop offset="0.7993" stop-color="#0290CF" stop-opacity="0.528" />
-          <stop offset="0.892" stop-color="#0290CF" stop-opacity="0.722" />
-          <stop offset="0.9788" stop-color="#0290CF" stop-opacity="0.941" />
-          <stop offset="1" stop-color="#0290CF" />
+          <stop stopColor="#0290CF" stopOpacity="0" />
+          <stop offset="0.2191" stopColor="#0290CF" stopOpacity="0.013" />
+          <stop offset="0.3639" stopColor="#0290CF" stopOpacity="0.056" />
+          <stop offset="0.4873" stopColor="#0290CF" stopOpacity="0.128" />
+          <stop offset="0.5987" stopColor="#0290CF" stopOpacity="0.231" />
+          <stop offset="0.7019" stopColor="#0290CF" stopOpacity="0.364" />
+          <stop offset="0.7993" stopColor="#0290CF" stopOpacity="0.528" />
+          <stop offset="0.892" stopColor="#0290CF" stopOpacity="0.722" />
+          <stop offset="0.9788" stopColor="#0290CF" stopOpacity="0.941" />
+          <stop offset="1" stopColor="#0290CF" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_44_250"
@@ -322,13 +322,13 @@ export const EmailIcon = () => {
           y2="33.3943"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C8EFFE" />
-          <stop offset="0.1027" stop-color="#C0EDFD" />
-          <stop offset="0.258" stop-color="#ABEAFD" />
-          <stop offset="0.4465" stop-color="#89E5FD" />
-          <stop offset="0.6612" stop-color="#5ADDFC" />
-          <stop offset="0.8947" stop-color="#1ED4FB" />
-          <stop offset="1" stop-color="#01D0FB" />
+          <stop stopColor="#C8EFFE" />
+          <stop offset="0.1027" stopColor="#C0EDFD" />
+          <stop offset="0.258" stopColor="#ABEAFD" />
+          <stop offset="0.4465" stopColor="#89E5FD" />
+          <stop offset="0.6612" stopColor="#5ADDFC" />
+          <stop offset="0.8947" stopColor="#1ED4FB" />
+          <stop offset="1" stopColor="#01D0FB" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_44_250"
@@ -338,16 +338,16 @@ export const EmailIcon = () => {
           y2="37.1933"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0290CF" stop-opacity="0" />
-          <stop offset="0.2191" stop-color="#0290CF" stop-opacity="0.013" />
-          <stop offset="0.3639" stop-color="#0290CF" stop-opacity="0.056" />
-          <stop offset="0.4873" stop-color="#0290CF" stop-opacity="0.128" />
-          <stop offset="0.5987" stop-color="#0290CF" stop-opacity="0.231" />
-          <stop offset="0.7019" stop-color="#0290CF" stop-opacity="0.364" />
-          <stop offset="0.7993" stop-color="#0290CF" stop-opacity="0.528" />
-          <stop offset="0.892" stop-color="#0290CF" stop-opacity="0.722" />
-          <stop offset="0.9788" stop-color="#0290CF" stop-opacity="0.941" />
-          <stop offset="1" stop-color="#0290CF" />
+          <stop stopColor="#0290CF" stopOpacity="0" />
+          <stop offset="0.2191" stopColor="#0290CF" stopOpacity="0.013" />
+          <stop offset="0.3639" stopColor="#0290CF" stopOpacity="0.056" />
+          <stop offset="0.4873" stopColor="#0290CF" stopOpacity="0.128" />
+          <stop offset="0.5987" stopColor="#0290CF" stopOpacity="0.231" />
+          <stop offset="0.7019" stopColor="#0290CF" stopOpacity="0.364" />
+          <stop offset="0.7993" stopColor="#0290CF" stopOpacity="0.528" />
+          <stop offset="0.892" stopColor="#0290CF" stopOpacity="0.722" />
+          <stop offset="0.9788" stopColor="#0290CF" stopOpacity="0.941" />
+          <stop offset="1" stopColor="#0290CF" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_44_250"
@@ -357,16 +357,16 @@ export const EmailIcon = () => {
           y2="26.3091"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0290CF" stop-opacity="0" />
-          <stop offset="0.2191" stop-color="#0290CF" stop-opacity="0.013" />
-          <stop offset="0.3639" stop-color="#0290CF" stop-opacity="0.056" />
-          <stop offset="0.4873" stop-color="#0290CF" stop-opacity="0.128" />
-          <stop offset="0.5987" stop-color="#0290CF" stop-opacity="0.231" />
-          <stop offset="0.7019" stop-color="#0290CF" stop-opacity="0.364" />
-          <stop offset="0.7993" stop-color="#0290CF" stop-opacity="0.528" />
-          <stop offset="0.892" stop-color="#0290CF" stop-opacity="0.722" />
-          <stop offset="0.9788" stop-color="#0290CF" stop-opacity="0.941" />
-          <stop offset="1" stop-color="#0290CF" />
+          <stop stopColor="#0290CF" stopOpacity="0" />
+          <stop offset="0.2191" stopColor="#0290CF" stopOpacity="0.013" />
+          <stop offset="0.3639" stopColor="#0290CF" stopOpacity="0.056" />
+          <stop offset="0.4873" stopColor="#0290CF" stopOpacity="0.128" />
+          <stop offset="0.5987" stopColor="#0290CF" stopOpacity="0.231" />
+          <stop offset="0.7019" stopColor="#0290CF" stopOpacity="0.364" />
+          <stop offset="0.7993" stopColor="#0290CF" stopOpacity="0.528" />
+          <stop offset="0.892" stopColor="#0290CF" stopOpacity="0.722" />
+          <stop offset="0.9788" stopColor="#0290CF" stopOpacity="0.941" />
+          <stop offset="1" stopColor="#0290CF" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_44_250"
@@ -376,16 +376,16 @@ export const EmailIcon = () => {
           y2="27.4275"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0290CF" stop-opacity="0" />
-          <stop offset="0.2191" stop-color="#0290CF" stop-opacity="0.013" />
-          <stop offset="0.3639" stop-color="#0290CF" stop-opacity="0.056" />
-          <stop offset="0.4873" stop-color="#0290CF" stop-opacity="0.128" />
-          <stop offset="0.5987" stop-color="#0290CF" stop-opacity="0.231" />
-          <stop offset="0.7019" stop-color="#0290CF" stop-opacity="0.364" />
-          <stop offset="0.7993" stop-color="#0290CF" stop-opacity="0.528" />
-          <stop offset="0.892" stop-color="#0290CF" stop-opacity="0.722" />
-          <stop offset="0.9788" stop-color="#0290CF" stop-opacity="0.941" />
-          <stop offset="1" stop-color="#0290CF" />
+          <stop stopColor="#0290CF" stopOpacity="0" />
+          <stop offset="0.2191" stopColor="#0290CF" stopOpacity="0.013" />
+          <stop offset="0.3639" stopColor="#0290CF" stopOpacity="0.056" />
+          <stop offset="0.4873" stopColor="#0290CF" stopOpacity="0.128" />
+          <stop offset="0.5987" stopColor="#0290CF" stopOpacity="0.231" />
+          <stop offset="0.7019" stopColor="#0290CF" stopOpacity="0.364" />
+          <stop offset="0.7993" stopColor="#0290CF" stopOpacity="0.528" />
+          <stop offset="0.892" stopColor="#0290CF" stopOpacity="0.722" />
+          <stop offset="0.9788" stopColor="#0290CF" stopOpacity="0.941" />
+          <stop offset="1" stopColor="#0290CF" />
         </linearGradient>
         <clipPath id="clip0_44_250">
           <rect width="48" height="48" fill="white" />
