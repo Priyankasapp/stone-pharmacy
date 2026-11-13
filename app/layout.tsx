@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Poppins, Figtree } from "next/font/google";
 import "./globals.css";
 import localFont from 'next/font/local'
 
@@ -27,6 +27,13 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700"]
 });
 
+const figtree = Figtree({
+  subsets:['latin'],
+  variable:'--font-proxima-alt',
+  weight:['300', '400', '500','600', '700'],
+  display:"swap",
+
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -37,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${poppins.variable} h-full ${acuminVariable.variable} ${nightSerif.variable} ${clashGrotesk.variable } antialiased` }
+      className={`${poppins.variable} h-full ${acuminVariable.variable} ${nightSerif.variable} ${figtree.variable} ${clashGrotesk.variable } antialiased` }
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col" suppressHydrationWarning>

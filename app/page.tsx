@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import OurNewsLatter from "./components/OurNewsLatter";
 import FAQ from "./components/FAQ";
 import TestimonialBentoSection from "./components/TestimonialBentoSection";
+import ProductCard from "./components/ProductCard";
+import { productData } from "@/lib/data";
 
 export default function Home() {
   return (
@@ -12,6 +14,17 @@ export default function Home() {
       <Background/>
      <Navbar/>
      <TestimonialBentoSection/>
+     {productData.map((product) => (
+      <ProductCard
+        key={product.name}
+        name={product.name}
+        categories={product.categories}
+        description={product.description}
+        price={product.price}
+        image={product.image}
+      />
+     ))}
+
      <FAQ/>
      <OurNewsLatter/>
      <Footer/>

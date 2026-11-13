@@ -3,7 +3,7 @@ import React from 'react'
 const MessageIcon = () => {
   return (
     <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1_727)">
+<g clipPath="url(#clip0_1_727)">
 <path d="M47.6895 21.3613H31.0431C24.2442 21.3613 18.7326 26.8729 18.7326 33.6719V42.4041C18.7326 49.203 24.2441 54.7146 31.0431 54.7146H40.5975C40.7671 54.7146 40.9201 54.8082 41.0053 54.9549C42.3809 57.3241 45.244 59.0121 49.0044 59.984C49.4694 60.1041 49.7815 59.5252 49.4342 59.1937C48.0294 57.8527 47.3394 56.5278 47.2235 55.2303C47.1988 54.9542 47.4123 54.7146 47.6896 54.7146C54.4885 54.7146 60.0001 49.2031 60.0001 42.4041V33.672C60 26.8729 54.4883 21.3613 47.6895 21.3613Z" fill="url(#paint0_linear_1_727)"/>
 <path d="M47.6895 21.3613H36.6456V54.7145H40.5975C40.7671 54.7145 40.9201 54.808 41.0053 54.9548C42.3809 57.3239 45.244 59.012 49.0044 59.9839C49.4694 60.104 49.7815 59.5251 49.4342 59.1936C48.0294 57.8526 47.3394 56.5277 47.2235 55.2302C47.1988 54.9541 47.4123 54.7145 47.6896 54.7145C54.4886 54.7145 60.0001 49.2028 60.0001 42.404V33.6719C60 26.8729 54.4883 21.3613 47.6895 21.3613Z" fill="url(#paint1_linear_1_727)"/>
 <path d="M60 33.8738V42.4039C60 49.2027 54.4885 54.7144 47.6895 54.7144C47.4122 54.7144 47.1988 54.9539 47.2234 55.23C47.3394 56.5274 48.0293 57.8525 49.4341 59.1934C49.7814 59.5251 49.4693 60.104 49.0043 59.9837C45.244 59.0119 42.3808 57.3238 41.0052 54.9546C40.9201 54.808 40.767 54.7144 40.5974 54.7144H31.043C24.2441 54.7144 18.7325 49.2028 18.7325 42.4039V33.8738H60Z" fill="url(#paint2_linear_1_727)"/>
@@ -23,17 +23,17 @@ const MessageIcon = () => {
 <stop offset="1" stopColor="#0182FC"/>
 </linearGradient>
 <linearGradient id="paint1_linear_1_727" x1="51.8599" y1="40.6806" x2="59.8724" y2="40.6806" gradientUnits="userSpaceOnUse">
-<stop stopColor="#314DC9" stop-opacity="0"/>
-<stop offset="0.2761" stopColor="#304BC4" stop-opacity="0.276"/>
-<stop offset="0.5628" stopColor="#2B45B8" stop-opacity="0.563"/>
-<stop offset="0.8535" stopColor="#243BA3" stop-opacity="0.854"/>
+<stop stopColor="#314DC9" stopOpacity="0"/>
+<stop offset="0.2761" stopColor="#304BC4" stopOpacity="0.276"/>
+<stop offset="0.5628" stopColor="#2B45B8" stopOpacity="0.563"/>
+<stop offset="0.8535" stopColor="#243BA3" stopOpacity="0.854"/>
 <stop offset="1" stopColor="#1F3596"/>
 </linearGradient>
 <linearGradient id="paint2_linear_1_727" x1="39.3664" y1="45.5098" x2="39.3664" y2="55.9916" gradientUnits="userSpaceOnUse">
-<stop stopColor="#314DC9" stop-opacity="0"/>
-<stop offset="0.2761" stopColor="#304BC4" stop-opacity="0.276"/>
-<stop offset="0.5628" stopColor="#2B45B8" stop-opacity="0.563"/>
-<stop offset="0.8535" stopColor="#243BA3" stop-opacity="0.854"/>
+<stop stopColor="#314DC9" stopOpacity="0"/>
+<stop offset="0.2761" stopColor="#304BC4" stopOpacity="0.276"/>
+<stop offset="0.5628" stopColor="#2B45B8" stopOpacity="0.563"/>
+<stop offset="0.8535" stopColor="#243BA3" stopOpacity="0.854"/>
 <stop offset="1" stopColor="#1F3596"/>
 </linearGradient>
 <linearGradient id="paint3_linear_1_727" x1="16.6665" y1="2.5473" x2="33.1341" y2="35.4823" gradientUnits="userSpaceOnUse">
@@ -41,22 +41,22 @@ const MessageIcon = () => {
 <stop offset="1" stopColor="#FAC600"/>
 </linearGradient>
 <linearGradient id="paint4_linear_1_727" x1="41.7342" y1="21.2302" x2="51.7648" y2="21.2302" gradientUnits="userSpaceOnUse">
-<stop stopColor="#FE9738" stop-opacity="0"/>
+<stop stopColor="#FE9738" stopOpacity="0"/>
 <stop offset="1" stopColor="#FE9738"/>
 </linearGradient>
 <linearGradient id="paint5_linear_1_727" x1="25.8318" y1="30.2321" x2="25.8318" y2="43.3544" gradientUnits="userSpaceOnUse">
-<stop stopColor="#FE9738" stop-opacity="0"/>
+<stop stopColor="#FE9738" stopOpacity="0"/>
 <stop offset="1" stopColor="#FE9738"/>
 </linearGradient>
 <linearGradient id="paint6_linear_1_727" x1="18.0527" y1="20.9225" x2="54.3089" y2="48.3235" gradientUnits="userSpaceOnUse">
-<stop stopColor="#314DC9" stop-opacity="0"/>
-<stop offset="0.2761" stopColor="#304BC4" stop-opacity="0.276"/>
-<stop offset="0.5628" stopColor="#2B45B8" stop-opacity="0.563"/>
-<stop offset="0.8535" stopColor="#243BA3" stop-opacity="0.854"/>
+<stop stopColor="#314DC9" stopOpacity="0"/>
+<stop offset="0.2761" stopColor="#304BC4" stopOpacity="0.276"/>
+<stop offset="0.5628" stopColor="#2B45B8" stopOpacity="0.563"/>
+<stop offset="0.8535" stopColor="#243BA3" stopOpacity="0.854"/>
 <stop offset="1" stopColor="#1F3596"/>
 </linearGradient>
 <linearGradient id="paint7_linear_1_727" x1="20.6914" y1="25.3372" x2="6.34596" y2="18.6697" gradientUnits="userSpaceOnUse">
-<stop stopColor="#FE9738" stop-opacity="0"/>
+<stop stopColor="#FE9738" stopOpacity="0"/>
 <stop offset="1" stopColor="#FE9738"/>
 </linearGradient>
 <linearGradient id="paint8_linear_1_727" x1="14.634" y1="9.59896" x2="21.4733" y2="21.623" gradientUnits="userSpaceOnUse">
@@ -68,7 +68,7 @@ const MessageIcon = () => {
 <stop offset="1" stopColor="#D8ECFE"/>
 </linearGradient>
 <linearGradient id="paint10_linear_1_727" x1="32.1185" y1="23.7417" x2="21.7949" y2="18.9434" gradientUnits="userSpaceOnUse">
-<stop stopColor="#FE9738" stop-opacity="0"/>
+<stop stopColor="#FE9738" stopOpacity="0"/>
 <stop offset="1" stopColor="#FE9738"/>
 </linearGradient>
 <linearGradient id="paint11_linear_1_727" x1="23.1972" y1="11.7332" x2="27.9729" y2="20.1293" gradientUnits="userSpaceOnUse">

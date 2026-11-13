@@ -6,9 +6,10 @@ const customColors = [
   'summer-lime',
   'ice-blue',
   'dark-charcoal',
-  'ice-blue',
   'silver',
   'card-blue',
+  'chrome-white',
+  
 ]
 const colotTheme = customColors.reduce((acc, color )=>{
   acc[color] = `var(--color-${color})`
@@ -29,7 +30,8 @@ module.exports = {
         clash:['var(--font-clash-grotesk)', 'sans-serif'],
         poppins:['var(--font-poppins)'],
         acumin:['var(--font-acumin)'],
-        nightSerif:['var(--font-night-serif)']
+        nightSerif:['var(--font-night-serif)'],
+        proximaNovaAlt:['--font-proxim-alt']
       },
     },
   },
