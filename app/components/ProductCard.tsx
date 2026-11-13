@@ -12,7 +12,7 @@ const ProductCard = ({
   image,
 }: ProductData) => {
   return (
-    <div className="w-full max-w-[350px] mx-auto rounded-[12px] pb-[16px] flex flex-col justify-between border border-ice-blue bg-white overflow-hidden">
+    <div className="w-full max-w-[370px] mx-auto rounded-[12px] pb-[16px] flex flex-col justify-between border border-ice-blue bg-white overflow-hidden">
       <div className="bg-ice-blue w-full min-h-[200px] sm:min-h-[220px] flex items-center justify-center relative p-4">
         <span className="absolute top-[14px] left-[14px] sm:top-[18px] sm:left-[16px] z-10">
           <Offer />

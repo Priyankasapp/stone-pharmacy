@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Poppins, Figtree } from "next/font/google";
 import "./globals.css";
 import localFont from 'next/font/local'
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const clashGrotesk = localFont({
   src:'../public/fonts/ClashGrotesk-Variable.woff2',

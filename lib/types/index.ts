@@ -24,3 +24,21 @@ export interface ProductData {
     image:string|StaticImageData;
 }
 
+
+export interface HealtyData {
+    image:string|StaticImageData;
+    description:string;
+    title:string;
+}
+
+export interface HeroSectionData {
+    image:string|StaticImageData;
+    searchBar:boolean;
+    multiGrad:boolean;
+    markup:string;
+    marukupCoords:string;
+    mainText:string;
+    subText:string;
+    delay:string;
+
+}
