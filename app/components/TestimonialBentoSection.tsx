@@ -1,79 +1,157 @@
-import React from "react";
+"use client";
+
+import React, { useRef } from "react";
+import Slider from "react-slick";
+
 import SparkLines from "./icons/SparkLines";
 import SingleLine from "./icons/SingleLine";
 import MessageIcon from "./icons/MessageIcon";
 import StarIcon from "./icons/StarIcon";
 import LeftArrow from "./icons/LeftArrow";
 import RightArrow from "./icons/RightArrow";
+import Frame from "./icons/Frame";
 import Image from "next/image";
-import imageOne from "../../public/images/image 22.svg";
 import imageTwo from "../../public/images/image.svg";
+import imageThree from "../../public/images/Frame 48.png";
+import imageFour from "../../public/images/image.png";
+import imageFive from "../../public/images/image copy.png";
+import { testimonialData } from "@/lib/data";
+
+
 
 const TestimonialBentoSection = () => {
+
+  const sliderRef = useRef<Slider | null>(null);
+
+  const settings = {
+    dots: false,
+    arrows: false, 
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: true, 
+  };
+
   return (
-    <section className="w-full px-4 py-10 sm:py-14  lg:px-8 items-center justify-center flex ">
-      <div className="relative w-full max-w-[1098px] flex items-center justify-center flex-col">
+    <section className="relative flex w-full items-center justify-center px-4 py-10 sm:py-14 lg:px-8">
+      <span className="absolute">
+        <Frame />
+      </span>
+
+      <div className="relative flex w-full max-w-[1098px] flex-col items-center justify-center">
+        {/* Heading */}
         <div className="relative mb-8">
           <h2 className="nightSerif text-[36px] font-[400]">
             Trusted by Patients, Honoured by the Industry
           </h2>
-          <span className="absolute top-3 -left-10">
+          <span className="absolute -left-10 top-3">
             <SparkLines />
           </span>
-          <span className="absolute top-6 left-[360px]">
+          <span className="absolute left-[360px] top-6">
             <SingleLine />
           </span>
         </div>
-        <div className="flex gap-[24px]">
-          <div className="flex  flex-col gap-[32px]">
-            <div className="flex flex-col gap-[32px]">
+
+        {/* Bento Grid */}
+        <div className="flex flex-col lg:flex-row gap-[24px] w-full">
+          {/* ----- Left Testimonial Card with Slick ----- */}
+          <div className="flex h-[595px] w-full lg:w-[508px] flex-col justify-between rounded-[16px] border border-[#A7E8E8] bg-white px-[48px] py-[34px]">
+            {/* Top Static Icon */}
+            <div>
               <span>
                 <MessageIcon />
               </span>
-              <p className="poppins font-[400] text-[16px]">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Expedita, obcaecati recusandae eius itaque vitae enim error
-                delectus nobis, temporibus corporis nesciunt reiciendis
-                aspernatur, beatae fuga ullam dolore sit esse excepturi?
-              </p>
-              <span>
-                <StarIcon />
-              </span>
             </div>
-            <div className="flex items-center justify-between">
-              <div>
-                <span className="flex  items-center gap-[14px]">
-                  <Image
-                    src={imageOne}
-                    alt="user Image"
-                    width={60}
-                    height={60}
-                  />
-                  Marina Lewis
-                </span>
-              </div>
-              <div className="flex  gap-[5px]">
-                <LeftArrow />
-                <RightArrow />
-              </div>
+
+            {/* Middle & Bottom Slider Content */}
+            <div className="w-full overflow-hidden">
+              <Slider ref={sliderRef} {...settings}>
+                {testimonialData.map((item, index) => (
+                  <div key={index} className="outline-none ">
+                    <div className="flex flex-col gap-[32px] mb-40">
+                      <p className="poppins text-[16px] font-[400] text-gray-800">
+                        {item.desc}
+                      </p>
+                      <span>
+                        <StarIcon />
+                      </span>
+                    </div>
+
+                    <div className="flex items-center justify-between gap-4">
+                      <div className="flex items-center gap-[14px]">
+                        <Image
+                          src={item.img}
+                          alt={item.name}
+                          width={60}
+                          height={60}
+                          className="h-[60px] w-[60px] rounded-full object-cover"
+                        />
+                        <span className="poppins text-[16px] font-[500]">
+                          {item.name}
+                        </span>
+                      </div>
+
+                      <div className="z-10 flex items-center gap-[8px]">
+                        <button
+                          type="button"
+                          onClick={() => sliderRef.current?.slickPrev()}
+                          className="cursor-pointer transition-opacity hover:opacity-75"
+                          aria-label="Previous testimonial"
+                        >
+                          <LeftArrow />
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => sliderRef.current?.slickNext()}
+                          className="cursor-pointer transition-opacity hover:opacity-75"
+                          aria-label="Next testimonial"
+                        >
+                          <RightArrow />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </Slider>
             </div>
           </div>
 
-          <div>
-            <div className="relative w-full h-[370px] rounded-[8px] overflow-hidden flex-none self-stretch">
-              <Image 
-              src={imageTwo} 
-              alt="Patient care "
-              className="object-cover"
-              sizes="(max-width: 640px) 100vw, 271px" />
+          {/* ----- Middle Column ----- */}
+          <div className="flex flex-col gap-[24px]">
+            <div className="h-[370px] w-[271px] overflow-hidden rounded-[8px]">
+              <Image
+                src={imageTwo}
+                alt="Patient care"
+                className="h-full w-full object-cover"
+              />
             </div>
-
-            <div className="relative flex flex-col justify-end itmes-start px-[20px] w-full h-[201px] rounded-[8px] overflow-hidden flex-none self-stretch bg-black/20 ">
-               
-            </div>  
+            <div className="h-[201px] w-[271px] overflow-hidden rounded-[8px] bg-[#00000033]">
+              <Image
+                src={imageThree}
+                alt="Google"
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
 
-          <div>sdfseklfj</div>
+          {/* ----- Right Column ----- */}
+          <div className="flex flex-col gap-[24px]">
+            <div className="h-[201px] w-[271px] overflow-hidden rounded-[8px] bg-[#00000033]">
+              <Image
+                src={imageFive}
+                alt="Google"
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <div className="h-[370px] w-[271px] overflow-hidden rounded-[8px]">
+              <Image
+                src={imageFour}
+                alt="Patient care"
+                className="h-full w-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>

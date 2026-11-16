@@ -1,4 +1,4 @@
-import { FaqsData, HealtyData, HeroSectionData, NavLinks, ProductData } from "../types";
+import { FaqsData, HealtyData, HeroSectionData, NavLinks, ProductData, TestimonialData } from "../types";
 import Penadoll from "../../public/images/penadoll.svg";
 import Halls from "../../public/images/Halls.svg";
 import Plam from "../../public/images/plam.svg";
@@ -9,6 +9,9 @@ import photo1 from "../../public/images/photo1.svg";
 import photo2 from "../../public/images/photo2.png";
 import photo3 from "../../public/images/photo3.jpg";
 import photo4 from "../../public/images/photo4.png";
+
+import avtarone from "../../public/images/Marca.jpeg";
+import avtartwo from "../../public/images/Masha.jpeg";
 
 export const navLink: NavLinks[] = [
     {
@@ -174,4 +177,18 @@ export const heroData: HeroSectionData[] = [
             subText: "Start your online consultation today and get personalized weight loss guidance, fast and discreetly.",
             delay: "-4s"
         }
+]
+
+
+export const testimonialData:TestimonialData[]=[
+    {
+        name:"Marina Lewis",
+        desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, obcaecati recusandae eius itaque vitae enim error delectus nobis, temporibus corporis nesciunt reiciendis aspernatur, beatae fuga ullam dolore sit esse excepturi?",
+        img:avtarone
+    },
+    {
+        name:"Marca",
+        desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, obcaecati recusandae eius itaque vitae enim error delectus nobis, temporibus corporis nesciunt reiciendis aspernatur, beatae fuga ullam dolore sit esse excepturi",
+        img:avtartwo
+    }
 ]

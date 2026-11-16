@@ -46,3 +46,9 @@ export type ButtonType = {
     onClick?: () => void
     children: string | React.ReactNode
 }
+
+export interface TestimonialData{
+    name:string;
+    desc:string;
+    img:string|StaticImageData;
+}
