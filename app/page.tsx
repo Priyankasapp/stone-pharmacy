@@ -7,6 +7,7 @@ import TestimonialBentoSection from "./components/TestimonialBentoSection";
 import ProductSection from "./components/ProductSection";
 import WhatWeOfferSection from "./components/WhatWeOfferSection";
 import Hero from "./components/Hero";
+import Characterstics from "./components/Characterstics";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Background />
       <Navbar />
       <Hero/>
+      <Characterstics/>
       <WhatWeOfferSection/>
       <TestimonialBentoSection />
       <ProductSection />

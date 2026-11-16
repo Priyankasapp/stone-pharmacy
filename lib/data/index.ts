@@ -1,10 +1,14 @@
-import { FaqsData, HealtyData, NavLinks, ProductData } from "../types";
+import { FaqsData, HealtyData, HeroSectionData, NavLinks, ProductData } from "../types";
 import Penadoll from "../../public/images/penadoll.svg";
 import Halls from "../../public/images/Halls.svg";
 import Plam from "../../public/images/plam.svg";
 import img1 from "../../public/images/image (1).svg";
 import img2 from "../../public/images/image (2).svg";
 import img3 from "../../public/images/image (3).svg";
+import photo1 from "../../public/images/photo1.svg";
+import photo2 from "../../public/images/photo2.png";
+import photo3 from "../../public/images/photo3.jpg";
+import photo4 from "../../public/images/photo4.png";
 
 export const navLink: NavLinks[] = [
     {
@@ -126,4 +130,48 @@ export const healthyData: HealtyData[] = [
         description:'Find convenient contraception services at your local pharmacy. Get personalised advice and options without a doctor visit.',
         image:img3,
     }
+]
+
+
+export const heroData: HeroSectionData[] = [
+     {
+            image: photo1,
+            searchBar: true,
+            multiGrad: true,
+            markup: "underline",
+            marukupCoords: "",
+            mainText: "Feel Better Faster With Expert Care When You Need It",
+            subText: "Skip the long waits and get professional medical advice quickly and discreetly. Start your online consultation today and take control of your health.",
+            delay: "0s"
+        },
+        {
+            image: photo2,
+            searchBar: false,
+            multiGrad: false,
+            markup: "circle",
+            marukupCoords: "260px",
+            mainText: "Beat The Cough & Flu With Fast, Expert Care",
+            subText: "Get personalized treatment and relief quickly with our online consultation — no waiting, just healing.",
+            delay: "-12s"
+        },
+        {
+            image: photo3,
+            searchBar: false,
+            multiGrad: false,
+            markup: "underline",
+            marukupCoords: "",
+            mainText: "Your Health, Our Priority - Safe Travels Start Here  ",
+            subText: "we provide expert advice and tailored care to ensure you stay healthy and protected during your travels. ",
+            delay: "-8s"
+        },
+        {
+            image: photo4,
+            searchBar: false,
+            multiGrad: false,
+            markup: "circle",
+            marukupCoords: "320px",
+            mainText: "Achieve Your Weight Loss Goals With Our Support",
+            subText: "Start your online consultation today and get personalized weight loss guidance, fast and discreetly.",
+            delay: "-4s"
+        }
 ]

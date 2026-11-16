@@ -24,7 +24,6 @@ export interface ProductData {
     image:string|StaticImageData;
 }
 
-
 export interface HealtyData {
     image:string|StaticImageData;
     description:string;
@@ -41,4 +40,9 @@ export interface HeroSectionData {
     subText:string;
     delay:string;
 
+}
+export type ButtonType = {
+    className?: string
+    onClick?: () => void
+    children: string | React.ReactNode
 }
