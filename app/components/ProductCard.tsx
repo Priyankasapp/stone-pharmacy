@@ -2,6 +2,7 @@ import ProductStarIcon from "./icons/ProductStarIcon";
 import Image from "next/image";
 import Offer from "./Offer";
 import { ProductData } from "@/lib/types";
+import { useState } from "react";
 
 const ProductCard = ({
   
@@ -11,6 +12,16 @@ const ProductCard = ({
   price,
   image,
 }: ProductData) => {
+  const [count, setCount] = useState<number>(0);
+
+  const Increment = () =>{
+    setCount((prev) => prev + 1)
+  }
+
+  const Decrement = () => {
+    setCount((prev) => prev - 1)
+  }
+
   return (
     <div className="w-full max-w-[370px] mx-auto rounded-[12px] pb-[16px] flex flex-col justify-between border border-ice-blue bg-white overflow-hidden">
       <div className="bg-ice-blue w-full min-h-[200px] sm:min-h-[220px] flex items-center justify-center relative p-4">
@@ -59,9 +70,23 @@ const ProductCard = ({
           <span>2ML | £92.50 per 100ML</span>
         </div>
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <button className="flex min-h-[44px] flex-1 items-center justify-center gap-[3px] rounded-xl border px-3 py-2 text-sm sm:flex-none sm:px-6 sm:py-[10px]">
+          {count === 0 ?  <button onClick={Increment} className="flex min-h-[44px] flex-1 items-center justify-center gap-[3px] rounded-xl border px-3 py-2 text-sm sm:flex-none sm:px-6 sm:py-[10px]">
             Add to Cart
+          </button> :
+          <div className="flex items-center gap-2">
+            <button
+            onClick={Decrement}
+             className="flex min-h-[44px] flex-1 items-center justify-center gap-[3px] rounded-xl border px-3 py-2 text-sm sm:flex-none sm:px-6 sm:py-[10px]">
+            -
           </button>
+          {count}
+          <button onClick={Increment} className="flex min-h-[44px] flex-1 items-center justify-center gap-[3px] rounded-xl border px-3 py-2 text-sm sm:flex-none sm:px-6 sm:py-[10px]">
+            +
+          </button>
+          </div>
+     
+        }
+        
           <button className="bg-transparent  border-none  text-card-blue ">
             <span className="underline underline-offset-4 text-[14px] font-medium">
               More Information
