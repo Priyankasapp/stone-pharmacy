@@ -13,7 +13,7 @@ const Characterstics = () => {
     <ul
       className="
         flex w-full flex-wrap items-center justify-center
-        gap-[24px] px-4 py-[16px]
+        gap-4 px-4 py-4 sm:gap-6
         rounded-[12px] bg-button-text/10
         font-nyght text-[18px] sm:text-[20px]
         md:gap-[60px] lg:gap-[120px]
@@ -22,7 +22,7 @@ const Characterstics = () => {
       {items.map((item, i) => (
         <li
           key={i}
-          className="flex items-center gap-[12px] sm:gap-[16px] whitespace-nowrap"
+          className="flex min-w-0 max-w-full items-center gap-3 text-center sm:gap-4 sm:text-left"
         >
           <span className="shrink-0">{item.icon}</span>
           {item.label}

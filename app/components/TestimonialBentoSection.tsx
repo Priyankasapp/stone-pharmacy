@@ -35,28 +35,28 @@ const TestimonialBentoSection = () => {
 
   return (
     <section className="relative flex w-full items-center justify-center px-4 py-10 sm:py-14 lg:px-8">
-      <span className="absolute">
+      <span className="pointer-events-none absolute hidden sm:block">
         <Frame />
       </span>
 
       <div className="relative flex w-full max-w-[1098px] flex-col items-center justify-center">
         {/* Heading */}
-        <div className="relative mb-8">
-          <h2 className="nightSerif text-[36px] font-[400]">
+        <div className="relative mb-6 w-full sm:mb-8">
+          <h2 className="nightSerif text-center text-2xl font-[400] leading-tight sm:text-3xl lg:text-[36px]">
             Trusted by Patients, Honoured by the Industry
           </h2>
-          <span className="absolute -left-10 top-3">
+          <span className="absolute -left-10 top-3 hidden sm:block">
             <SparkLines />
           </span>
-          <span className="absolute left-[360px] top-6">
+          <span className="absolute right-[18%] top-6 hidden sm:block">
             <SingleLine />
           </span>
         </div>
 
         {/* Bento Grid */}
-        <div className="flex flex-col lg:flex-row gap-[24px] w-full">
+        <div className="grid w-full grid-cols-1 gap-4 lg:grid-cols-[minmax(0,1.84fr)_minmax(0,1fr)_minmax(0,1fr)] lg:gap-6">
           {/* ----- Left Testimonial Card with Slick ----- */}
-          <div className="flex h-[595px] w-full lg:w-[508px] flex-col justify-between rounded-[16px] border border-[#A7E8E8] bg-white px-[48px] py-[34px]">
+          <div className="flex min-w-0 min-h-[440px] flex-col justify-between rounded-[16px] border border-[#A7E8E8] bg-white px-5 py-6 sm:min-h-[500px] sm:px-8 sm:py-8 lg:h-[595px] lg:min-h-0 lg:px-12 lg:py-[34px]">
             {/* Top Static Icon */}
             <div>
               <span>
@@ -69,7 +69,7 @@ const TestimonialBentoSection = () => {
               <Slider ref={sliderRef} {...settings}>
                 {testimonialData.map((item, index) => (
                   <div key={index} className="outline-none ">
-                    <div className="flex flex-col gap-[32px] mb-40">
+                    <div className="mb-10 flex flex-col gap-6 sm:mb-16 sm:gap-8 lg:mb-40">
                       <p className="poppins text-[16px] font-[400] text-gray-800">
                         {item.desc}
                       </p>
@@ -118,15 +118,15 @@ const TestimonialBentoSection = () => {
           </div>
 
           {/* ----- Middle Column ----- */}
-          <div className="flex flex-col gap-[24px]">
-            <div className="h-[370px] w-[271px] overflow-hidden rounded-[8px]">
+          <div className="grid min-w-0 grid-cols-2 gap-3 sm:gap-4 lg:flex lg:flex-col lg:gap-6">
+            <div className="h-40 overflow-hidden rounded-[8px] sm:h-48 lg:h-[370px]">
               <Image
                 src={imageTwo}
                 alt="Patient care"
                 className="h-full w-full object-cover"
               />
             </div>
-            <div className="h-[201px] w-[271px] overflow-hidden rounded-[8px] bg-[#00000033]">
+            <div className="h-40 overflow-hidden rounded-[8px] bg-[#00000033] sm:h-48 lg:h-[201px]">
               <Image
                 src={imageThree}
                 alt="Google"
@@ -136,15 +136,15 @@ const TestimonialBentoSection = () => {
           </div>
 
           {/* ----- Right Column ----- */}
-          <div className="flex flex-col gap-[24px]">
-            <div className="h-[201px] w-[271px] overflow-hidden rounded-[8px] bg-[#00000033]">
+          <div className="grid min-w-0 grid-cols-2 gap-3 sm:gap-4 lg:flex lg:flex-col lg:gap-6">
+            <div className="h-40 overflow-hidden rounded-[8px] bg-[#00000033] sm:h-48 lg:h-[201px]">
               <Image
                 src={imageFive}
                 alt="Google"
                 className="h-full w-full object-cover"
               />
             </div>
-            <div className="h-[370px] w-[271px] overflow-hidden rounded-[8px]">
+            <div className="h-40 overflow-hidden rounded-[8px] sm:h-48 lg:h-[370px]">
               <Image
                 src={imageFour}
                 alt="Patient care"

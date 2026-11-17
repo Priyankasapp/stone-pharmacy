@@ -12,7 +12,7 @@ import Conditions from "./components/Conditions";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen w-full overflow-hidden ">
+    <div className="relative min-h-screen w-full  ">
      <div className="absolute inset-0  -z-10 pointer-events-none">
         <Background />
       </div>

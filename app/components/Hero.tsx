@@ -13,7 +13,6 @@ import {
 import RedCircle from "./icons/RedCircles";
 import RedUnderline from "./icons/RedUnderline";
 import Button from "./Button";
-import Characterstics from "./Characterstics";
 
 const Hero = () => {
   const sliderRef = useRef<Slider>(null);
@@ -32,14 +31,14 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex w-full mt-25 justify-center px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
+    <section className="mt-24 flex w-full justify-center px-4 py-8 sm:mt-28 sm:px-6 sm:py-14 lg:px-8">
       <div className="flex w-full justify-center flex-col max-w-[1320px]">
-        <div className="relative flex h-[467px] w-full  overflow-hidden rounded-[12px]">
+        <div className="relative flex h-[560px] w-full overflow-hidden rounded-[12px] sm:h-[500px] lg:h-[467px]">
           <Slider ref={sliderRef} {...settings} className="h-full w-full">
             {heroData.map((banner, index) => (
-              <div key={index} className="h-[467px]">
-                <div className="relative isolate h-[467px] w-full overflow-hidden rounded-[12px] px-[30px] py-[15px]">
-                  {/* ---------- Background / Gradients ---------- */}
+              <div key={index} className="h-[560px] sm:h-[500px] lg:h-[467px]">
+                <div className="relative isolate h-[560px] w-full overflow-hidden rounded-[12px] px-6 py-8 sm:h-[500px] sm:px-10 sm:py-10 lg:h-[467px] lg:px-[30px] lg:py-[15px]">
+               
                   {banner.multiGrad ? (
                     <div className="absolute inset-0 left-[-100px] z-[-1] overflow-hidden">
                       <Image
@@ -69,34 +68,36 @@ const Hero = () => {
                     </div>
                   )}
 
-                  {/* ---------- Content ---------- */}
-                  <div className="flex w-full flex-col gap-[24px]  lg:w-[50%] pl-[120px] pt-[60px]">
-                    <h1 className="font-nyght text-[36px] font-[600] text-text-primary">
+               
+                  <div className="flex w-full flex-col gap-4 sm:gap-5 lg:w-[58%] lg:gap-[24px] lg:pl-[90px] lg:pt-[45px] xl:pl-[120px] xl:pt-[60px]">
+                    <h1 className="font-nyght text-[30px] font-[600] leading-tight text-text-primary sm:text-[34px] lg:text-[36px]">
                       {banner.mainText}
                       {banner.markup === "underline" ? (
-                        <RedUnderline />
+                        <RedUnderline className="h-auto w-[170px] sm:w-[210px] lg:w-[232px]" />
                       ) : (
                         <RedCircle
-                          className="absolute top-[50px]"
-                          style={{ left: banner.marukupCoords }}
+                          className="absolute top-[34px] h-auto w-[170px] sm:top-[42px] sm:w-[210px] lg:top-[50px] lg:w-[236px]"
+                          style={{
+                            left: `min(${banner.marukupCoords}, calc(100vw - 200px))`,
+                          }}
                         />
                       )}
                     </h1>
 
-                    <p className="font-poppins text-[18px] font-[300] text-text-secondary">
+                    <p className="max-w-[560px] font-poppins text-[15px] font-[300] leading-6 text-text-secondary sm:text-base lg:text-[18px]">
                       {banner.subText}
                     </p>
 
                     {banner.searchBar ? (
-                      <div className="flex flex-col gap-[24px]">
-                        <div className="flex h-[48px] w-full max-w-[578px] gap-[8px] rounded-[16px] border border-[#BABABA] bg-[#F0F0F0]">
+                      <div className="flex flex-col gap-4 sm:gap-6">
+                        <div className="flex h-[48px] w-full max-w-[578px] min-w-0 gap-2 rounded-[16px] border border-[#BABABA] bg-[#F0F0F0]">
                           <input
-                            className="w-full py-[10px] pl-[12px] pr-[4px] font-poppins text-[16px] outline-none"
+                            className="min-w-0 flex-1 rounded-l-[16px] bg-transparent py-[10px] pl-[12px] pr-[4px] font-poppins text-sm outline-none sm:text-base"
                             placeholder="Search Conditions (e.g stomach ache)"
                           />
-                          <Button className="font-[600]">Search</Button>
+                          <Button className="max-w-[120px] px-3 text-sm sm:max-w-[170px] sm:px-6 sm:text-base">Search</Button>
                         </div>
-                        <p className="text-[16px]">
+                        <p className="text-sm sm:text-base">
                           or{" "}
                           <a className="cursor-pointer underline">
                             view all conditions
@@ -104,7 +105,7 @@ const Hero = () => {
                         </p>
                       </div>
                     ) : (
-                      <Button className="mt-[12px] self-start">Book Now</Button>
+                      <Button className="mt-1 self-start sm:mt-3">Book Now</Button>
                     )}
                   </div>
                 </div>
@@ -120,5 +121,4 @@ const Hero = () => {
 };
 
 export default Hero;
-
 

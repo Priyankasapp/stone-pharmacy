@@ -33,7 +33,7 @@ const ProductCard = ({
             <span className="text-card-blue font-proximaNovaAlt text-[14px]">
               {categories}
             </span>
-            <h3 className="font-proximaNovaAlt font-[600] text-[24px] sm:text-[20px] leading-tight">
+            <h3 className="font-proximaNovaAlt text-xl font-[600] leading-tight sm:text-2xl">
               {name}
             </h3>
           </div>
@@ -59,8 +59,8 @@ const ProductCard = ({
           </div>
           <span>2ML | £92.50 per 100ML</span>
         </div>
-        <div className="flex justify-between">
-          <button className="flex max-h-[47px] h-full radius-[12px] border px-[24px] py-[10px] gap-[3px]">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <button className="flex min-h-[44px] flex-1 items-center justify-center gap-[3px] rounded-xl border px-3 py-2 text-sm sm:flex-none sm:px-6 sm:py-[10px]">
             Add to Cart
           </button>
           <button className="bg-transparent  border-none  text-card-blue ">

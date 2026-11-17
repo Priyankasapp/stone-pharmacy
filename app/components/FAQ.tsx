@@ -19,11 +19,11 @@ const FAQ = () => {
     <section className="w-full px-4 py-10 sm:px-6 sm:py-14 lg:px-8 items-center justify-center flex">
       <div className="relative w-full max-w-[1098px]">
         <div className="relative mb-8">
-          <h2 className="relative z-10 font-nightSerif font- text-[36px] text-center">
+          <h2 className="relative z-10 text-center font-nightSerif text-2xl leading-tight sm:text-3xl lg:text-[36px]">
             Frequently asked questions
           </h2>
           <span
-            className="absolute left-[410px] top-[30px] -translate-x-1/2 -translate-y-1/2 w-[120%] pointer-events-none -z-10 block"
+            className="pointer-events-none absolute left-1/2 top-[30px] -z-10 block -translate-x-1/2 -translate-y-1/2"
             style={{
               width: "199.41px",
               height: "78.03px",
@@ -40,7 +40,7 @@ const FAQ = () => {
             return (
               <div
                 key={index}
-                className="border flex flex-col border-ice-blue p-[24px]"
+                className="flex flex-col border border-ice-blue p-4 sm:p-6"
               >
                 <button
                   type="button"
@@ -48,7 +48,7 @@ const FAQ = () => {
                   aria-expanded={isOpen}
                   className="flex items-center justify-between w-full text-left cursor-pointer focus:outline-none"
                 >
-                  <p className="font-poppins font-medium text-[24px] text-card-blue">
+                  <p className="font-poppins text-base font-medium leading-snug text-card-blue sm:text-lg lg:text-2xl">
                     {faq.question}
                   </p>
                   <span className="shrink-0 ml-4">
