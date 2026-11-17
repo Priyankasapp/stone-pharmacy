@@ -24,7 +24,7 @@ const Hero = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 4000,
     pauseOnHover: true,
     arrows: false,
     fade: true,
@@ -70,7 +70,8 @@ const Hero = () => {
 
                
                   <div className="flex w-full flex-col gap-4 sm:gap-5 lg:w-[58%] lg:gap-[24px] lg:pl-[90px] lg:pt-[45px] xl:pl-[120px] xl:pt-[60px]">
-                    <h1 className="font-nightSerif text-reach-blue-green text-[30px] font-[600] leading-tight text-text-primary sm:text-[34px] lg:text-[36px]">
+                  {index === 0 ?
+                   <h1 className="font-nightSerif text-reach-blue-green text-[30px] font-[600] leading-tight text-text-primary sm:text-[34px] lg:text-[36px]">
                       {banner.mainText}
                       {banner.markup === "underline" ? (
                         <RedUnderline className="h-auto w-[170px] sm:w-[210px] lg:w-[232px]" />
@@ -83,6 +84,20 @@ const Hero = () => {
                         />
                       )}
                     </h1>
+                  : <h2 className="font-nightSerif text-reach-blue-green text-[30px] font-[600] leading-tight text-text-primary sm:text-[34px] lg:text-[36px]">
+                      {banner.mainText}
+                      {banner.markup === "underline" ? (
+                        <RedUnderline className="h-auto w-[170px] sm:w-[210px] lg:w-[232px]" />
+                      ) : (
+                        <RedCircle
+                          className="absolute top-[35px] h-auto w-[170px] sm:top-[45px] sm:w-[210px] lg:top-[60px] lg:w-[236px]"
+                          style={{
+                            left: `min(${banner.marukupCoords}, calc(100vw - 200px))`,
+                          }}
+                        />
+                      )}
+                    </h2>}
+                   
 
                     <p className="max-w-[560px] font-poppins text-[15px] font-[300] leading-6 text-text-secondary sm:text-base lg:text-[18px]">
                       {banner.subText}

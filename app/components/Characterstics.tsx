@@ -15,9 +15,11 @@ const Characterstics = () => {
       className="
         flex w-full flex-wrap items-center justify-center
         gap-4 px-4 py-4 sm:gap-6
-        rounded-[12px] bg-button-text/10
+        rounded-[12px] 
         font-nyght text-[18px] sm:text-[20px]
         md:gap-[60px] lg:gap-[120px]
+        bg-[#A7E8E81A]
+
       "
     >
       {items.map((item, i) => (

@@ -39,7 +39,7 @@ const ProductCard = ({
       {/* card body  */}
       <div className="flex flex-col flex-1 justify-between px-[16px] pt-[14px] fap-[14px]">
         <div className="flex flex-col gap-[10px]">
-          {/* titile  */}
+          {/* title  */}
           <div>
             <span className="text-card-blue font-poppins text-[14px]">
               {categories}

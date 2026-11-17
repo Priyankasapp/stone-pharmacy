@@ -14,19 +14,7 @@ const Button = ({ className, children }: ButtonType) => {
     )
 }
 
-export default Button
+export default Button;
 
-export const Button2 = ({ className, children }: ButtonType) => {
-    return (
-        <div className='rounded-xl bg-gradient-to-r from-[#E1E1E1] to-[#ADADAD] p-[1px]'>
-            <button
-                type="button"
-                className={`
-                w-full rounded-xl bg-[#FEFEFE] px-[24px] py-[10px] cursor-pointer hover:bg-neutral-50 transition-colors`}
-            >
-                {children}
-            </button>
-        </div>
-    )
-}
+
 
