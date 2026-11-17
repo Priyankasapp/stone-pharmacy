@@ -70,7 +70,7 @@ const ProductSection = ({ products = productData }: ProductSectionProps) => {
               <ChevronLeft />
             </button>
           )}
-          <div className="-mx-3">
+          <div className="mx-10">
             <Slider ref={sliderRef} {...settings}>
               {products.map((product) => (
                 <div
