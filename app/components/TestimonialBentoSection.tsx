@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef } from "react";
+import  { useRef } from "react";
 import Slider from "react-slick";
 
 import SparkLines from "./icons/SparkLines";
@@ -48,7 +48,7 @@ const TestimonialBentoSection = () => {
           <span className="absolute left-[107px] top-3 hidden sm:block">
             <SparkLines />
           </span>
-          <span className="absolute right-[18%] top-6 hidden sm:block">
+          <span className="absolute right-[38%] top-6 hidden sm:block">
             <SingleLine />
           </span>
         </div>
@@ -116,7 +116,6 @@ const TestimonialBentoSection = () => {
             </div>
           </div>
 
-          {/* ----- Middle Column ----- */}
           <div className="grid min-w-0 grid-cols-2 gap-3 sm:gap-4 lg:flex lg:flex-col lg:gap-6">
             <div className="h-40 overflow-hidden rounded-[8px] sm:h-48 lg:h-[370px]">
               <Image
@@ -134,7 +133,6 @@ const TestimonialBentoSection = () => {
             </div>
           </div>
 
-          {/* ----- Right Column ----- */}
           <div className="grid min-w-0 grid-cols-2 gap-3 sm:gap-4 lg:flex lg:flex-col lg:gap-6">
             <div className="h-40 overflow-hidden rounded-[8px] bg-[#00000033] sm:h-48 lg:h-[201px]">
               <Image

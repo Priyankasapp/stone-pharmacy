@@ -76,7 +76,7 @@ const Hero = () => {
                         <RedUnderline className="h-auto w-[170px] sm:w-[210px] lg:w-[232px]" />
                       ) : (
                         <RedCircle
-                          className="absolute top-[34px] h-auto w-[170px] sm:top-[42px] sm:w-[210px] lg:top-[50px] lg:w-[236px]"
+                          className="absolute top-[35px] h-auto w-[170px] sm:top-[45px] sm:w-[210px] lg:top-[60px] lg:w-[236px]"
                           style={{
                             left: `min(${banner.marukupCoords}, calc(100vw - 200px))`,
                           }}
@@ -90,7 +90,7 @@ const Hero = () => {
 
                     {banner.searchBar ? (
                       <div className="flex flex-col gap-4 sm:gap-6">
-                        <div className="flex h-[48px] w-full max-w-[578px] min-w-0 gap-2 rounded-[16px] border border-[#BABABA] bg-[#F0F0F0]">
+                        <div className="flex h-[48px] w-full max-w-[578px] min-w-0 gap-2 rounded-[16px] border border-[#BABABA] bg-[#F0F0F0] items-center ">
                           <input
                             className="min-w-0 flex-1 rounded-l-[16px] bg-transparent py-[10px] pl-[12px] pr-[4px] font-poppins text-sm outline-none sm:text-base"
                             placeholder="Search Conditions (e.g stomach ache)"
@@ -114,7 +114,6 @@ const Hero = () => {
           </Slider>
         </div>
 
-        {/* <Characterstics /> */}
       </div>
     </section>
   );

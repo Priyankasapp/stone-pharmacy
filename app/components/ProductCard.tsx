@@ -41,7 +41,6 @@ const ProductCard = ({
             {description}
           </p>
 
-          {/* name, categories, description, price   */}
           <div className="flex">
             <ProductStarIcon />
             <span>(9403)</span>

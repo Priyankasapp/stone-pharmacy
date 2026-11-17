@@ -3,9 +3,8 @@ import Image from "next/image";
 
 import { useEffect, useState } from "react";
 import { IconTick } from "./icons/IconTrick";
-import Button, { Button2 } from "./Button";
 import { PaperBg } from "./icons/PaperBg";
-import { services, steps } from "@/lib/data";
+import {  steps } from "@/lib/data";
 
 const WhatWeOffer = () => {
   const [stepNo, setStepNo] = useState<number>(1);
@@ -59,7 +58,6 @@ const WhatWeOffer = () => {
                 className="h-[320px] w-auto opacity-55"
               />
             )}
-            {/* Tailwind 3 replacement for bg-radial from-transparent to-white */}
             <div
               className="absolute inset-0 pointer-events-none"
               style={{

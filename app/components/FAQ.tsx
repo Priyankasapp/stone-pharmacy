@@ -40,7 +40,7 @@ const FAQ = () => {
             return (
               <div
                 key={index}
-                className="flex flex-col border border-ice-blue p-4 sm:p-6"
+                className="flex flex-col border border-ice-blue rounded-[8px] p-4 sm:p-6"
               >
                 <button
                   type="button"
