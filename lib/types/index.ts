@@ -52,3 +52,17 @@ export interface TestimonialData{
     desc:string;
     img:string|StaticImageData;
 }
+
+export interface Services{
+    id:number;
+    title:string;
+    text:string;
+    img:string|StaticImageData;
+}
+
+export interface Steps{
+    id:number;
+    title:string;
+    text:string;
+    img:string | StaticImageData;
+}

@@ -32,7 +32,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex w-full justify-center px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
+    <section className="flex w-full mt-25 justify-center px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
       <div className="flex w-full justify-center flex-col max-w-[1320px]">
         <div className="relative flex h-[467px] w-full  overflow-hidden rounded-[12px]">
           <Slider ref={sliderRef} {...settings} className="h-full w-full">

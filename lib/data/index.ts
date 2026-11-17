@@ -1,4 +1,4 @@
-import { FaqsData, HealtyData, HeroSectionData, NavLinks, ProductData, TestimonialData } from "../types";
+import { FaqsData, HealtyData, HeroSectionData, NavLinks, ProductData, Services, Steps, TestimonialData } from "../types";
 import Penadoll from "../../public/images/penadoll.svg";
 import Halls from "../../public/images/Halls.svg";
 import Plam from "../../public/images/plam.svg";
@@ -12,6 +12,13 @@ import photo4 from "../../public/images/photo4.png";
 
 import avtarone from "../../public/images/Marca.jpeg";
 import avtartwo from "../../public/images/Masha.jpeg";
+import StepOne from "../../public/images/step1.png";
+import StepTwo from "../../public/images/step2.png";
+import StepThree from "../../public/images/step3.png";
+import StepFour from "../../public/images/step4.png";
+import WeightManagement from "../../public/images/WeightManagement.png";
+import TravelVaccine from "../../public/images/TravelVaccine.png";
+import Contraception from "../../public/images/Contraception.png";
 
 export const navLink: NavLinks[] = [
     {
@@ -191,4 +198,52 @@ export const testimonialData:TestimonialData[]=[
         desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, obcaecati recusandae eius itaque vitae enim error delectus nobis, temporibus corporis nesciunt reiciendis aspernatur, beatae fuga ullam dolore sit esse excepturi",
         img:avtartwo
     }
+]
+
+export const services:Services[]=[
+   {
+            id: 1,
+            title: "Weight Management",
+            text: "Personalised support to help you achieve your weight goals, your perfect diet plan including expert advice and treatment options.",
+            img: WeightManagement,
+        },
+        {
+            id: 2,
+            title: "Travel Vaccination",
+            text: "Stay protected on your travels with essential vaccines, medicines and health advice tailored to your destination.",
+            img: TravelVaccine
+        },
+        {
+            id: 3,
+            title: "Contraception Service",
+            text: "Find convenient contraception services at your local pharmacy. Get personalised advice and options without a doctor visit.",
+            img: Contraception
+        },
+]
+
+export const steps:Steps[] = [
+ {
+            id: 1,
+            title: "Pick your condition",
+            text: "Just let us know what's wrong, like a cough, pain, or a medication question. We'll guide you from there.",
+            img: StepOne
+        },
+        {
+            id: 2,
+            title: "Answer few questions",
+            text: "A quick and simple form to help us understand your needs better. It won't take long!",
+            img: StepTwo
+        },
+        {
+            id: 3,
+            title: "Schedule an appointment",
+            text: "Choose a time that works best for you—it's simple and hassle-free.",
+            img: StepThree,
+        },
+        {
+            id: 4,
+            title: "Recieve expert care",
+            text: "Speak with a friendly clinician who will help you feel better with the right advice and treatment.",
+            img:StepFour,
+        },
 ]

@@ -8,15 +8,19 @@ import ProductSection from "./components/ProductSection";
 import WhatWeOfferSection from "./components/WhatWeOfferSection";
 import Hero from "./components/Hero";
 import Characterstics from "./components/Characterstics";
+import Conditions from "./components/Conditions";
 
 export default function Home() {
   return (
-    <div className="absolute top-0 right-0 w-full ">
-      <Background />
+    <div className="relative min-h-screen w-full overflow-hidden ">
+     <div className="absolute inset-0  -z-10 pointer-events-none">
+        <Background />
+      </div>
       <Navbar />
       <Hero/>
       <Characterstics/>
       <WhatWeOfferSection/>
+      <Conditions/>
       <TestimonialBentoSection />
       <ProductSection />
       <FAQ />
