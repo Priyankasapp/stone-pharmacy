@@ -23,7 +23,7 @@ const FAQ = () => {
             Frequently asked questions
           </h2>
           <span
-            className="pointer-events-none absolute left-1/2 top-[30px] -z-10 block -translate-x-1/2 -translate-y-1/2"
+            className="pointer-events-none absolute left-[415px] top-[24px] -z-10 block -translate-x-1/2 -translate-y-1/2"
             style={{
               width: "199.41px",
               height: "78.03px",
@@ -48,7 +48,11 @@ const FAQ = () => {
                   aria-expanded={isOpen}
                   className="flex items-center justify-between w-full text-left cursor-pointer focus:outline-none"
                 >
-                  <p className="font-poppins text-base font-medium leading-snug text-card-blue sm:text-lg lg:text-2xl">
+                  <p
+                    className={`font-poppins text-base font-medium leading-snug sm:text-lg lg:text-2xl ${
+                      isOpen ? "text-card-blue" : "text-manganese-blue"
+                    }`}
+                  >
                     {faq.question}
                   </p>
                   <span className="shrink-0 ml-4">

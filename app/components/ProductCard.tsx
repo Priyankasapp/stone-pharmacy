@@ -30,14 +30,14 @@ const ProductCard = ({
         <div className="flex flex-col gap-[10px]">
           {/* titile  */}
           <div>
-            <span className="text-card-blue font-proximaNovaAlt text-[14px]">
+            <span className="text-card-blue font-poppins text-[14px]">
               {categories}
             </span>
-            <h3 className="font-proximaNovaAlt text-xl font-[600] leading-tight sm:text-2xl">
+            <h3 className="font-poppins text-xl font-[600] leading-tight sm:text-2xl">
               {name}
             </h3>
           </div>
-          <p className="font-proximaNovaAlt font-[300] text-[16px]">
+          <p className="font-poppins font-[300] text-[16px]">
             {description}
           </p>
 

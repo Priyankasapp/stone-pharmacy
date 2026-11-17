@@ -4,6 +4,7 @@ import IconShield from "./icons/IconShield";
 
 const Characterstics = () => {
   const items = [
+
     { icon: <IconClock />, label: "Convenient Appointment Booking" },
     { icon: <IconPerson />, label: "Personalized Care" },
     { icon: <IconShield />, label: "Trusted Quality Assurance" },
@@ -22,9 +23,9 @@ const Characterstics = () => {
       {items.map((item, i) => (
         <li
           key={i}
-          className="flex min-w-0 max-w-full items-center gap-3 text-center sm:gap-4 sm:text-left"
+          className="flex min-w-0 max-w-full font-nightSerif items-center gap-3 text-center sm:gap-4 sm:text-left"
         >
-          <span className="shrink-0">{item.icon}</span>
+          <span className="shrink-0 ">{item.icon}</span>
           {item.label}
         </li>
       ))}

@@ -21,8 +21,9 @@ export default function Home() {
       <Characterstics/>
       <WhatWeOfferSection/>
       <Conditions/>
+       <ProductSection />
       <TestimonialBentoSection />
-      <ProductSection />
+     
       <FAQ />
       <OurNewsLatter />
       <Footer />

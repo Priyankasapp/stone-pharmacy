@@ -9,7 +9,8 @@ const customColors = [
   'silver',
   'card-blue',
   'chrome-white',
-  
+  'reach-blue-green',
+  'manganese-blue'
 ]
 const colotTheme = customColors.reduce((acc, color )=>{
   acc[color] = `var(--color-${color})`
@@ -31,7 +32,8 @@ module.exports = {
         poppins:['var(--font-poppins)'],
         acumin:['var(--font-acumin)'],
         nightSerif:['var(--font-night-serif)'],
-        proximaNovaAlt:['--font-proxim-alt']
+        proximaNovaAlt:['--font-proxim-alt'],
+        
       },
     },
   },

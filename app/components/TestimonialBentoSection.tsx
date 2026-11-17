@@ -45,7 +45,7 @@ const TestimonialBentoSection = () => {
           <h2 className="nightSerif text-center text-2xl font-[400] leading-tight sm:text-3xl lg:text-[36px]">
             Trusted by Patients, Honoured by the Industry
           </h2>
-          <span className="absolute -left-10 top-3 hidden sm:block">
+          <span className="absolute left-[107px] top-3 hidden sm:block">
             <SparkLines />
           </span>
           <span className="absolute right-[18%] top-6 hidden sm:block">
@@ -53,24 +53,23 @@ const TestimonialBentoSection = () => {
           </span>
         </div>
 
-        {/* Bento Grid */}
+        
         <div className="grid w-full grid-cols-1 gap-4 lg:grid-cols-[minmax(0,1.84fr)_minmax(0,1fr)_minmax(0,1fr)] lg:gap-6">
-          {/* ----- Left Testimonial Card with Slick ----- */}
+         
           <div className="flex min-w-0 min-h-[440px] flex-col justify-between rounded-[16px] border border-[#A7E8E8] bg-white px-5 py-6 sm:min-h-[500px] sm:px-8 sm:py-8 lg:h-[595px] lg:min-h-0 lg:px-12 lg:py-[34px]">
-            {/* Top Static Icon */}
+         
             <div>
               <span>
                 <MessageIcon />
               </span>
             </div>
 
-            {/* Middle & Bottom Slider Content */}
             <div className="w-full overflow-hidden">
               <Slider ref={sliderRef} {...settings}>
                 {testimonialData.map((item, index) => (
                   <div key={index} className="outline-none ">
                     <div className="mb-10 flex flex-col gap-6 sm:mb-16 sm:gap-8 lg:mb-40">
-                      <p className="poppins text-[16px] font-[400] text-gray-800">
+                      <p className="font-poppins text-[16px] font-[400] text-gray-800">
                         {item.desc}
                       </p>
                       <span>

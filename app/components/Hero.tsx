@@ -70,7 +70,7 @@ const Hero = () => {
 
                
                   <div className="flex w-full flex-col gap-4 sm:gap-5 lg:w-[58%] lg:gap-[24px] lg:pl-[90px] lg:pt-[45px] xl:pl-[120px] xl:pt-[60px]">
-                    <h1 className="font-nyght text-[30px] font-[600] leading-tight text-text-primary sm:text-[34px] lg:text-[36px]">
+                    <h1 className="font-nightSerif text-reach-blue-green text-[30px] font-[600] leading-tight text-text-primary sm:text-[34px] lg:text-[36px]">
                       {banner.mainText}
                       {banner.markup === "underline" ? (
                         <RedUnderline className="h-auto w-[170px] sm:w-[210px] lg:w-[232px]" />
