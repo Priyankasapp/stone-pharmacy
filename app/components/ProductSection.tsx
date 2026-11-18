@@ -70,7 +70,7 @@ const ProductSection = ({ products = productData }: ProductSectionProps) => {
               <ChevronLeft />
             </button>
           )}
-          <div className="mx-10">
+          <div className="mx-2 sm:mx-10">
             <Slider ref={sliderRef} {...settings}>
               {products.map((product) => (
                 <div
@@ -106,4 +106,3 @@ const ProductSection = ({ products = productData }: ProductSectionProps) => {
 };
 
 export default ProductSection;
-

@@ -26,7 +26,21 @@
         margin: 0;
         padding: 0px;
         width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
         position: relative;
     }
 
+    img,
+    svg {
+        max-width: 100%;
+    }
+
+}
+
+.slick-list,
+.slick-track,
+.slick-slide,
+.slick-slide > div {
+    min-width: 0;
 }

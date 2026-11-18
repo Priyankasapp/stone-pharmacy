@@ -33,18 +33,18 @@ const Hero = () => {
   return (
     <section className="mt-24 flex w-full justify-center px-4 py-8 sm:mt-28 sm:px-6 sm:py-14 lg:px-8">
       <div className="flex w-full justify-center flex-col max-w-[1320px]">
-        <div className="relative flex h-[560px] w-full overflow-hidden rounded-[12px] sm:h-[500px] lg:h-[467px]">
+        <div className="relative flex h-[520px] w-full overflow-hidden rounded-[12px] sm:h-[500px] lg:h-[467px]">
           <Slider ref={sliderRef} {...settings} className="h-full w-full">
             {heroData.map((banner, index) => (
-              <div key={index} className="h-[560px] sm:h-[500px] lg:h-[467px]">
-                <div className="relative isolate h-[560px] w-full overflow-hidden rounded-[12px] px-6 py-8 sm:h-[500px] sm:px-10 sm:py-10 lg:h-[467px] lg:px-[30px] lg:py-[15px]">
+              <div key={index} className="h-[520px] sm:h-[500px] lg:h-[467px]">
+                <div className="relative isolate h-[520px] w-full overflow-hidden rounded-[12px] px-5 py-7 sm:h-[500px] sm:px-10 sm:py-10 lg:h-[467px] lg:px-[30px] lg:py-[15px]">
                
                   {banner.multiGrad ? (
                     <div className="absolute inset-0 left-[-100px] z-[-1] overflow-hidden">
                       <Image
                         src={banner.image}
                         alt="Hero Background"
-                        className="ml-auto h-full w-auto"
+                        className="ml-auto h-full w-full object-cover object-right sm:w-auto"
                         width={1000}
                         height={1000}
                       />
@@ -58,7 +58,7 @@ const Hero = () => {
                       <Image
                         src={banner.image}
                         alt="Hero Background"
-                        className="ml-auto h-full w-auto"
+                        className="ml-auto h-full w-full object-cover object-right sm:w-auto"
                         width={1000}
                         height={1000}
                       />
@@ -69,7 +69,7 @@ const Hero = () => {
                   )}
 
                
-                  <div className="flex w-full flex-col gap-4 sm:gap-5 lg:w-[58%] lg:gap-[24px] lg:pl-[90px] lg:pt-[45px] xl:pl-[120px] xl:pt-[60px]">
+                  <div className="relative z-[3] flex w-full flex-col gap-4 rounded-2xl bg-white/70 p-4 backdrop-blur-[2px] sm:bg-transparent sm:p-0 sm:gap-5 lg:w-[58%] lg:gap-[24px] lg:pl-[90px] lg:pt-[45px] xl:pl-[120px] xl:pt-[60px]">
                   {index === 0 ?
                    <h1 className="font-nightSerif text-reach-blue-green text-[30px] font-[600] leading-tight text-text-primary sm:text-[34px] lg:text-[36px]">
                       {banner.mainText}

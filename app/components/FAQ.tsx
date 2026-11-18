@@ -23,7 +23,7 @@ const FAQ = () => {
             Frequently asked questions
           </h2>
           <span
-            className="pointer-events-none absolute left-[415px] top-[24px] -z-10 block -translate-x-1/2 -translate-y-1/2"
+            className="pointer-events-none absolute left-1/2 top-[24px] -z-10 hidden -translate-x-1/2 -translate-y-1/2 sm:block"
             style={{
               width: "199.41px",
               height: "78.03px",

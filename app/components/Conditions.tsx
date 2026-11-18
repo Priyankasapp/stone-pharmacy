@@ -1,8 +1,6 @@
 "use client";
 import Image from "next/image";
 
-import { VectorOne, VectorTwo } from "./icons/VectorIcon";
-
 import { useEffect, useState } from "react";
 import { IconTick } from "./icons/IconTrick";
 import { steps } from "@/lib/data";
@@ -21,46 +19,37 @@ const WhatWeOffer = () => {
   }, []);
 
   return (
-    <section className="w-full flex flex-col items-center relative gap-8 sm:gap-10 lg:gap-[40px]">
-      <div className="w-full max-w-[1098px] flex flex-col lg:flex-row gap-6 lg:gap-24 justify-center items-center lg:items-stretch">
-        <div className="relative w-full">
-          <div className="absolute left-10 top-0 bottom-0 z-0 pointer-events-none">
-            <span className="absolute left-10 z-0">
-              <VectorOne />
-            </span>
-            <span className="w-full absolute top-5">
-              <VectorTwo />
-            </span>
+    <section className="w-full flex flex-col items-center relative gap-8 px-4 py-10 sm:px-6 sm:gap-10 lg:px-8 lg:gap-[40px]">
+      <div className="w-full max-w-[1098px] flex flex-col lg:grid lg:grid-cols-[minmax(0,1.1fr)_minmax(320px,447px)] gap-6 lg:gap-16 justify-center items-stretch">
+        <ol className="relative flex w-full flex-col rounded-2xl border border-button-text/30 p-4 lg:border-0 lg:p-0">
+          {steps.map((item) => {
+            const isActive = item.id === stepNo;
 
-            <ul className="relative flex top-10 flex-col">
-              {steps.map((item) => {
-                const isActive = item.id === stepNo;
-
-                return (
-                  <li key={item.id} className="flex flex-col">
-                    <div
-                      className={`pl-20 py-3 top-6 font-poppins text-base flex gap-8 transition-all duration-300 ${
-                        isActive
-                          ? "font-[600] text-text-primary"
-                          : "font-[400] text-dark-bg/60"
-                      }`}
-                    >
-                      <span>
-                        {item.id}. {item.title}
-                      </span>
-                      <span>
-                        {isActive && <IconTick className="shrink-0" />}
-                      </span>
-                    </div>
-                    <span className="w-full pointer-events-none pb-5">
-                      <VectorTwo />
-                    </span>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        </div>
+            return (
+              <li key={item.id} className="relative flex items-center gap-3 py-3">
+                <span
+                  className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border text-sm font-poppins ${
+                    isActive
+                      ? "border-manganese-blue bg-manganese-blue text-white"
+                      : "border-button-text/30 bg-white text-dark-charcoal"
+                  }`}
+                >
+                  {item.id}
+                </span>
+                <span
+                  className={`font-poppins text-sm sm:text-base transition-all duration-300 ${
+                    isActive
+                      ? "font-[600] text-text-primary"
+                      : "font-[400] text-dark-bg/60"
+                  }`}
+                >
+                  {item.title}
+                </span>
+                {isActive && <IconTick className="ml-auto shrink-0" />}
+              </li>
+            );
+          })}
+        </ol>
 
         <div className="w-full max-w-[447px] lg:max-w-none lg:w-3/8 border border-button-text/30 lg:border-0 rounded-2xl lg:rounded-none bg-[#F9FBFA] lg:bg-transparent p-4 sm:p-5 lg:p-0 relative flex flex-col lg:block items-center lg:items-stretch overflow-hidden">
           <div className="hidden lg:block w-full h-full relative items-center">
@@ -116,7 +105,7 @@ const WhatWeOffer = () => {
         </div>
       </div>
 
-      <button className="h-full max-h-[47px] w-full max-w-[240px] gap-24px rounded-12 font-poppins flex items-center text-[18px] font-[600] justify-center text-ice-blue  py-[10px] px-[24px] bg-[linear-gradient(180deg,#3E3D3E_0%,#403E40_79.91%,#5E5D5E_100%)] rounded-[12px] cursor-pointer border-2 border-black gap-8">
+      <button className="min-h-[47px] w-full max-w-[240px] rounded-[12px] border-2 border-black bg-[linear-gradient(180deg,#3E3D3E_0%,#403E40_79.91%,#5E5D5E_100%)] px-6 py-2.5 font-poppins flex items-center text-[18px] font-[600] justify-center text-ice-blue cursor-pointer">
         View all conditions
       </button>
     </section>

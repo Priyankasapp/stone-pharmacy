@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-2 sm:col-span-2 lg:col-span-1">
             <p className="font-poppins text-lg font-[400] text-white">Opening Hours</p>
-            <div className="flex flex-wrap gap-x-4 gap-y-2 sm:gap-x-8">
+            <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-x-8">
               <div className="flex flex-col gap-2 text-sm font-[400] text-white">
                 <p>Monday - Friday</p>
                 <p>Saturday</p>

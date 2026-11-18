@@ -37,7 +37,7 @@ const ProductCard = ({
       </div>
 
       {/* card body  */}
-      <div className="flex flex-col flex-1 justify-between px-[16px] pt-[14px] fap-[14px]">
+      <div className="flex flex-col flex-1 justify-between px-[16px] pt-[14px] gap-[14px]">
         <div className="flex flex-col gap-[10px]">
           {/* title  */}
           <div>
