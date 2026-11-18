@@ -10,6 +10,7 @@ import { MapIconFooter } from "./icons/MapIconFooter";
 import { EmailIcon } from "./icons/EmailIcon";
 import { PhoneIcon } from "./icons/PhoneIcon";
 import ExternalLink from "./icons/ExternalLink";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -21,9 +22,9 @@ const Footer = () => {
             <div>
               <p className="text-white/50">GPhC Registration:</p>
               <p className="text-white">Pharmacy: 1234567</p>
-              <p className="flex items-center gap-1 text-ice-blue">
+              <Link href="#" className="flex items-center gap-1 text-ice-blue">
                 Verify Registration <ExternalLink />
-              </p>
+              </Link>
             </div>
             <div>
               <p className="text-white/50">Superinted Pharmacist:</p>
@@ -40,22 +41,23 @@ const Footer = () => {
           <div className="flex flex-col gap-2">
             <p className="font-poppins text-lg font-[400] text-white">Quick Links</p>
             <div className="flex flex-col gap-2 text-sm font-[400] text-white">
-              <p>NHS Pharmacy</p>
-              <p>Private Pharmacy</p>
-              <p>Health & Advice</p>
-              <p>Contact Us</p>
-              <p>Care Home Service</p>
+              
+              <Link href='#'>Private Pharmacy</Link>
+              <Link href='#'>Health & Advice</Link>
+              <Link href='#'>Contact Us</Link>
+              <Link href='#'>Care Home Service</Link>
             </div>
           </div>
 
           <div className="flex flex-col gap-2">
             <p className="font-poppins text-lg font-[400] text-white">Other Links</p>
             <div className="flex flex-col gap-2 text-sm font-[400] text-white">
-              <p>NHS Pharmacy</p>
-              <p>Private Pharmacy</p>
-              <p>Health & Advice</p>
-              <p>Contact Us</p>
-              <p>Care Home Service</p>
+             
+              <Link href='#'>NHS Pharmacy</Link>
+              <Link href='#'>Private Pharmacy</Link>
+              <Link href='#'>Health & Advice</Link>
+              <Link href='#'>Contact Us</Link>
+              <Link href="#">Care Home Service</Link>
             </div>
           </div>
           <div className="flex flex-col gap-2 sm:col-span-2 lg:col-span-1">
@@ -121,10 +123,22 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-3">
+            <Link href="#">
             <FacebookIcon />
-            <TwitterIcon />
-            <InstagramIcon />
+            </Link>
+            <Link href="#">
+             <TwitterIcon />
+            </Link>
+
+            <Link href="#">
+             <InstagramIcon />
+            </Link>
+            
+           <Link href="#">
             <LinkedIn />
+            </Link>
+           
+            
           </div>
         </div>
       </div>

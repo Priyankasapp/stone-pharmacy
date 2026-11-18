@@ -11,8 +11,8 @@ const Characterstics = () => {
   ];
 
   return (
-   <section className="flex w-full   justify-center items-center">
-    <div className="w-full max-w-[1098px] bg-[#A7E8E81A] rounded-[8px] flex border border-[linear-gradient(90deg, #F0F7FF 0%, #FFFFFF 100%)] p-[16px] gap-[60px]  justify-center">
+   <section className="flex w-full  bg-[#A7E8E81A] justify-center items-center ">
+    <div className="w-full max-w-[1098px]   flex  p-[16px] gap-[60px]  justify-center">
       <ul className="flex items-center gap-[120px]">
         {items.map((item, i) => (
           <li 

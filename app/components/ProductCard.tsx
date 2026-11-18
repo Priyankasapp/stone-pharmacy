@@ -69,7 +69,7 @@ const ProductCard = ({
           </div>
           <span>2ML | £92.50 per 100ML</span>
         </div>
-        <div className="flex flex-wrap items-center justify-between gap-3">
+        <div className="flex flex-wrap items-center my-1 justify-between gap-3">
           {count === 0 ?  <button onClick={Increment} className="flex min-h-[44px] flex-1 items-center justify-center gap-[3px] rounded-xl border px-3 py-2 text-sm sm:flex-none sm:px-6 sm:py-[10px]">
             Add to Cart
           </button> :
