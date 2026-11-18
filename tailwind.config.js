@@ -10,7 +10,9 @@ const customColors = [
   'card-blue',
   'chrome-white',
   'reach-blue-green',
-  'manganese-blue'
+  'manganese-blue',
+  'silver-coin',
+  'off-white',
 ]
 const colotTheme = customColors.reduce((acc, color )=>{
   acc[color] = `var(--color-${color})`

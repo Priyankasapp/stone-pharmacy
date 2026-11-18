@@ -32,7 +32,7 @@ const Hero = () => {
 
   return (
     <section className="mt-24 flex w-full justify-center px-4 py-8 sm:mt-28 sm:px-6 sm:py-14 lg:px-8">
-      <div className="flex w-full justify-center flex-col max-w-[1098px]">
+      <div className="flex w-full justify-center flex-col max-w-[1320px]">
         <div className="relative flex h-[560px] w-full overflow-hidden rounded-[12px] sm:h-[500px] lg:h-[467px]">
           <Slider ref={sliderRef} {...settings} className="h-full w-full">
             {heroData.map((banner, index) => (

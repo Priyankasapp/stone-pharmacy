@@ -16,7 +16,8 @@
     --color-chrome-white:#E8F3F6;
     --color-reach-blue-green:#15454D;
     --color-manganese-blue:#00A3A3;
-
+    --color-silver-coin:#BABABA;
+    --color-off-white:#F0F0F0;
 }
 @layer base {
     html, 
