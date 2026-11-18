@@ -84,7 +84,7 @@ const Footer = () => {
             <div className="flex min-w-0 flex-col font-poppins font-[400]">
               <span className="text-silver">Pharmacy Address</span>
               <span className="break-words text-white">
-                10 Mary Way, Murrayhaven, DD8 4EX
+                10 Mary Way, Murrayhaven, 
               </span>
             </div>
           </div>
