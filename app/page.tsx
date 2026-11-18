@@ -23,7 +23,6 @@ export default function Home() {
       <Conditions/>
        <ProductSection />
       <TestimonialBentoSection />
-     
       <FAQ />
       <OurNewsLatter />
       <Footer />

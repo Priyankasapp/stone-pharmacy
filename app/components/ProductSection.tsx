@@ -51,7 +51,7 @@ const ProductSection = ({ products = productData }: ProductSectionProps) => {
       aria-labelledby="products-heading"
       className="flex w-full  px-4 py-10 sm:px-6 lg:px-10 xl:px-16"
     >
-      <div className="mx-auto w-full max-w-[1440px]">
+      <div className="mx-auto w-full max-w-[1098px]">
         <h2
           id="products-heading"
           className="mb-6 font-nightSerif text-center text-2xl font-semibold text-dark-charcoal sm:text-3xl"

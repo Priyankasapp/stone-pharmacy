@@ -14,7 +14,7 @@ import ExternalLink from "./icons/ExternalLink";
 const Footer = () => {
   return (
     <footer className="flex items-center justify-center bg-dark-charcoal px-4 py-12 sm:px-6 sm:py-16 lg:px-10 xl:px-16">
-      <div className="flex w-full max-w-[1440px] flex-col gap-8 sm:gap-10">
+      <div className="flex w-full max-w-[1098px] flex-col gap-8 sm:gap-10">
         {/* row 1  */}
         <div className="grid grid-cols-1 gap-x-8 gap-y-8 text-sm sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-6 xl:gap-x-10">
           <div className="flex flex-col gap-4 font-[400] font-acumin">

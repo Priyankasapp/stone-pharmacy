@@ -11,7 +11,7 @@ export const VectorOne = () =>{
 export const VectorTwo = () => {
     return(
      <svg width="439" height="3" viewBox="0 0 439 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.5 2.04921C110.186 2.04921 220.166 3.30785 329.829 1.61887L331.127 1.59888C366.844 1.04871 402.466 0.5 438.196 0.5" stroke-linecap="round" stroke="#9ECBF0"/>
+<path d="M0.5 2.04921C110.186 2.04921 220.166 3.30785 329.829 1.61887L331.127 1.59888C366.844 1.04871 402.466 0.5 438.196 0.5" strokeLinecap="round" stroke="#9ECBF0"/>
 </svg>
 
 

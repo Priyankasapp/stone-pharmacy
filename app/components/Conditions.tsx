@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
 
+import { VectorOne, VectorTwo } from "./icons/VectorIcon";
+
 import { useEffect, useState } from "react";
 import { IconTick } from "./icons/IconTrick";
-import { PaperBg } from "./icons/PaperBg";
-import {  steps } from "@/lib/data";
+import { steps } from "@/lib/data";
 
 const WhatWeOffer = () => {
   const [stepNo, setStepNo] = useState<number>(1);
@@ -21,29 +22,43 @@ const WhatWeOffer = () => {
 
   return (
     <section className="w-full flex flex-col items-center relative gap-8 sm:gap-10 lg:gap-[40px]">
-      <div className="w-full max-w-[1107px] flex flex-col lg:flex-row gap-6 lg:gap-24 justify-center items-center lg:items-stretch">
-        <div className="relative w-full max-w-[447px] lg:max-w-none lg:w-3/8 h-[290px] sm:h-[318px] lg:h-auto flex flex-col justify-start overflow-hidden">
-          <PaperBg className="absolute inset-0 w-full h-full pointer-events-none" />
-          <div className="relative z-10 flex flex-col pl-[20%] sm:pl-[22%] lg:pl-[100px] pt-[38px] sm:pt-[44px] lg:pt-[60px] lg:gap-[36px]">
-            {steps.map((step) => (
-              <div
-                key={step.id}
-                className="h-[56px] sm:h-[62px] lg:h-auto flex items-center"
-              >
-                <h4
-                  className={`text-xs sm:text-base lg:text-[18px] font-poppins flex items-center gap-2 sm:gap-3 lg:gap-16 transition-all duration-200 ${
-                    step.id <= stepNo
-                      ? "font-[600] text-text-primary"
-                      : "text-dark-bg/60 font-[400]"
-                  }`}
-                >
-                  <span>
-                    {step.id}. {step.title}
-                  </span>
-                  {step.id <= stepNo && <IconTick className="shrink-0" />}
-                </h4>
-              </div>
-            ))}
+      <div className="w-full max-w-[1098px] flex flex-col lg:flex-row gap-6 lg:gap-24 justify-center items-center lg:items-stretch">
+        <div className="relative w-full">
+          <div className="absolute left-10 top-0 bottom-0 z-0 pointer-events-none">
+            <span className="absolute left-10 z-0">
+              <VectorOne />
+            </span>
+            <span className="w-full absolute top-5">
+              <VectorTwo />
+            </span>
+
+            <ul className="relative flex top-10 flex-col">
+              {steps.map((item) => {
+                const isActive = item.id === stepNo;
+
+                return (
+                  <li key={item.id} className="flex flex-col">
+                    <div
+                      className={`pl-20 py-3 top-6 font-poppins text-base flex gap-8 transition-all duration-300 ${
+                        isActive
+                          ? "font-[600] text-text-primary"
+                          : "font-[400] text-dark-bg/60"
+                      }`}
+                    >
+                      <span>
+                        {item.id}. {item.title}
+                      </span>
+                      <span>
+                        {isActive && <IconTick className="shrink-0" />}
+                      </span>
+                    </div>
+                    <span className="w-full pointer-events-none pb-5">
+                      <VectorTwo />
+                    </span>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
         </div>
 
