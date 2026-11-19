@@ -74,7 +74,7 @@ const Hero = () => {
                    <h1 className="font-nightSerif text-reach-blue-green text-[30px] font-[600] leading-tight text-text-primary sm:text-[34px] lg:text-[36px]">
                       {banner.mainText}
                       {banner.markup === "underline" ? (
-                        <RedUnderline className="h-auto w-[170px] sm:w-[210px] lg:w-[232px]" />
+                        <RedUnderline className="h-auto w-[170px]  sm:w-[210px] lg:w-[232px]" />
                       ) : (
                         <RedCircle
                           className="absolute top-[35px] h-auto w-[170px] sm:top-[45px] sm:w-[210px] lg:top-[60px] lg:w-[236px]"
@@ -90,9 +90,9 @@ const Hero = () => {
                         <RedUnderline className="h-auto w-[170px] sm:w-[210px] lg:w-[232px]" />
                       ) : (
                         <RedCircle
-                          className="absolute top-[35px] h-auto w-[170px] sm:top-[45px] sm:w-[210px] lg:top-[60px] lg:w-[236px]"
+                          className="absolute top-[35px] h-auto w-[170px] sm:top-[45px] sm:w-[210px] lg:top-[45px] lg:w-[236px]"
                           style={{
-                            left: `min(${banner.marukupCoords}, calc(100vw - 200px))`,
+                            left: `min(${banner.marukupCoords}, calc(70vw - 180px))`,
                           }}
                         />
                       )}

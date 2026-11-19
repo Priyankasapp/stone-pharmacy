@@ -29,6 +29,7 @@
         max-width: 100%;
         overflow-x: hidden;
         position: relative;
+        scroll-behavior: smooth;
     }
 
     img,

@@ -8,16 +8,24 @@ import { UserIcon } from "./icons/UserIcon";
 import { MapIcon } from "./icons/MapIcon";
 import { LogoIcon } from "@/lib/icon";
 import { ChevronDown } from "./icons/ChevronDown";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const actions = (
     <>
-      <div className="flex items-center justify-center gap-6">
-        <SearchIcon />
-        <ShoppinCartIcon />
-        <UserIcon />
+      <div className="flex items-center justify-center cursor-pointer  gap-6">
+        <Link href="#">
+        <SearchIcon /></Link>
+            <Link href="#">
+            <ShoppinCartIcon /></Link>
+          <Link href="#">
+          <UserIcon />
+          </Link>
+        
+        
+        
       </div>
       <button className="flex h-12 w-full flex-none items-center justify-center gap-2 rounded-xl border-none bg-[linear-gradient(180deg,#3E3D3E_0%,#403E40_79.91%,#5E5D5E_100%)] px-6 py-2.5 shadow-[inset_0px_-2px_2px_0.5px_#000000,inset_0px_0px_2px_1.5px_rgba(255,255,255,0.5)] sm:w-auto">
         <MapIcon />
@@ -34,8 +42,8 @@ const Navbar = () => {
       className="fixed left-3 right-3 top-3 z-50 mx-auto max-w-[1440px] rounded-[28px] border border-neutral-200/30 bg-white px-3 py-2 shadow-[0_8px_30px_rgb(0,0,0,0.04),0_1px_2px_rgba(0,0,0,0.02)] sm:left-6 sm:right-6 sm:px-6 xl:top-6 xl:rounded-full xl:py-0"
     >
       <div className="flex h-14 items-center justify-between xl:h-20">
-        <div className="flex">
-          <LogoIcon />
+        <div className="flex cursor-pointer">
+         <Link href="#"> <LogoIcon /></Link>
           <div className="hidden items-center gap-1 xl:flex">
             {navLink.map((link, index) => (
               <button

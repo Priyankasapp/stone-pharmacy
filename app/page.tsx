@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <div className="relative min-h-screen w-full overflow-x-hidden">
      <div className="absolute inset-0  -z-10 pointer-events-none">
-        <Background />
+      <Background />
       </div>
       <Navbar />
       <Hero/>
       <Characterstics/>
       <WhatWeOfferSection/>
       <Conditions/>
-       <ProductSection />
+      <ProductSection />
       <TestimonialBentoSection />
       <FAQ />
       <OurNewsLatter />
