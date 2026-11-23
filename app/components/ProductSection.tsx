@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
-import { productData } from "@/lib/data";
 import type { ProductData } from "@/lib/types";
 import Slider, { type Settings } from "react-slick";
 import ProductCard from "./ProductCard";
@@ -13,7 +12,7 @@ interface ProductSectionProps {
   products?: ProductData[];
 }
 
-const ProductSection = ({ products = productData }: ProductSectionProps) => {
+const ProductSection = ({ products = [] }: ProductSectionProps) => {
   const sliderRef = useRef<any>(null);
   const goPrev = () => sliderRef.current?.slickPrev();
   const goNext = () => sliderRef.current?.slickNext();
@@ -74,15 +73,27 @@ const ProductSection = ({ products = productData }: ProductSectionProps) => {
             <Slider ref={sliderRef} {...settings}>
               {products.map((product) => (
                 <div
-                  key={product.slug ?? product.name}
+                  key={
+                    typeof product.slug === "string"
+                      ? product.slug
+                      : product.slug?.current ?? product.name
+                  }
                   className="h-full px-3 py-2 "
                 >
                   <ProductCard
                     name={product.name}
-                    categories={product.categories}
+                    category={product.category}
                     description={product.description}
                     price={product.price}
                     image={product.image}
+                    originalPrice={product.originalPrice}
+                    isOffer={product.isOffer}
+                    offerLabel={product.offerLabel}
+                    reviewCount={product.reviewCount}
+                    packSize={product.packSize}
+                    unitPrice={product.unitPrice}
+                    slug={product.slug}
+                    seo={product.seo}
                   />
                 </div>
               ))}

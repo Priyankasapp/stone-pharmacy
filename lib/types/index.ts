@@ -1,4 +1,5 @@
 import { StaticImageData } from "next/image";
+import { Image } from "sanity";
 
 export interface NavLinks {
     label:string;   
@@ -12,18 +13,35 @@ export interface FaqsData{
     answer?:string;
 }
 
+export interface SeoData {
+  title?: string;
+  description?: string;
+  image?: Image | StaticImageData | string;
+}
+export interface CategoryRef {
+  _id: string;
+  title: string;
+  slug?: { current: string };
+}
 
 
 // product data type 
 export interface ProductData {
-    slug?:string;
-    name:string;
-    categories:string;
-    description:string;
-    price:number;
-    image:string|StaticImageData;
+  _id?: string;
+  slug?: { current: string } | string;   
+  name: string;
+  category?: CategoryRef;                 
+  description?: string;                   
+  image: Image | StaticImageData | string;
+  isOffer?: boolean;
+  offerLabel?: string;
+  reviewCount?: number;
+  price: number;
+  originalPrice?: number;
+  packSize?: string;
+  unitPrice?: string;
+  seo?: SeoData;
 }
-
 export interface HealtyData {
     image:string|StaticImageData;
     description:string;
@@ -66,3 +84,4 @@ export interface Steps{
     text:string;
     img:string | StaticImageData;
 }
+

@@ -1,7 +1,4 @@
 import { FaqsData, HealtyData, HeroSectionData, NavLinks, ProductData, Services, Steps, TestimonialData } from "../types";
-import Penadoll from "../../public/images/penadoll.svg";
-import Halls from "../../public/images/Halls.svg";
-import Plam from "../../public/images/plam.svg";
 import img1 from "../../public/images/image (1).svg";
 import img2 from "../../public/images/image (2).svg";
 import img3 from "../../public/images/image (3).svg";
@@ -70,57 +67,6 @@ export const faqsData: FaqsData[] = [
         id:'',
         question:'How can Pharmacy First save time?',
         answer:''
-    }
-]
-
-export const productData: ProductData[] = [
-    {
-        slug:'plum-cream',
-        name:'Plum Cream',
-        categories:'Health & Beauty',
-        description:'Effective for 62-82% of men, works in 25 mins and lasts 4-5 hours.',
-        price:10,
-        image:Plam,
-    },
-    {
-        slug:'panadol',
-        name:'Panadol',
-        categories:'Pain Relif',
-        description:'Effective for 62-82% of men, Works in 25 mins and lasts 4-5 hours.',
-        price:6,
-        image:Penadoll,
-    },
-    {
-        slug:'halls',
-        name:'Halls',
-        categories:'Lozenges',
-        description:'Effective for 62-82% of men, Works in 25 mins and lasts 4-5 hours.',
-        price:9,
-        image:Halls,
-    },
-    {
-        slug:'plum-cream',
-        name:'Plum Cream',
-        categories:'Health & Beauty',
-        description:'Effective for 62-82% of men, works in 25 mins and lasts 4-5 hours.',
-        price:10,
-        image:Plam,
-    },
-    {
-        slug:'panadol',
-        name:'Panadol',
-        categories:'Pain Relif',
-        description:'Effective for 62-82% of men, Works in 25 mins and lasts 4-5 hours.',
-        price:6,
-        image:Penadoll,
-    },
-    {
-        slug:'halls',
-        name:'Halls',
-        categories:'Lozenges',
-        description:'Effective for 62-82% of men, Works in 25 mins and lasts 4-5 hours.',
-        price:9,
-        image:Halls,
     }
 ]
 

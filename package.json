@@ -9,12 +9,17 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@sanity/image-url": "^2.2.0",
+    "@sanity/vision": "^5.31.2",
     "@tailwindcss/vite": "^4.3.4",
     "next": "16.4.5",
+    "next-sanity": "^13.5.1",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "react-slick": "^0.31.0",
+    "sanity": "^5.31.2",
     "slick-carousel": "^2.0.0",
+    "styled-components": "^6.6.0",
     "swiper": "^14.4.0"
   },
   "devDependencies": {

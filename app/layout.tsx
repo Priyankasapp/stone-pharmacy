@@ -4,6 +4,7 @@ import "./globals.css";
 import localFont from 'next/font/local'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { SanityLive } from "@/sanity/lib/live";
 
 const clashGrotesk = localFont({
   src:'../public/fonts/ClashGrotesk-Variable.woff2',
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
         {children}
+        <SanityLive />
       </body>
     </html>
   );

@@ -13,8 +13,8 @@ const OurNewsLatter = () => {
             Subscribe to Our Newsletter
           </h2>
           <p className="mt-3 max-w-[721px] font-poppins text-sm font-[400] leading-6 text-[#333333BF] sm:text-base">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry standard dummy text.
+            Get pharmacy updates, health advice and service announcements by
+            email.
           </p>
           <div className="mt-5 flex w-full max-w-[540px] flex-col gap-3 sm:flex-row">
             <input
