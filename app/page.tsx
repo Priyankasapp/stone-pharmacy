@@ -20,8 +20,12 @@ export default function Home() {
       <Navbar />
       <Hero/>
       <Characterstics/>
-      <WhatWeOfferSection/>
-      <Conditions/>
+      <Suspense fallback={<section className="w-full px-4 py-10 text-center" role="status">Loading health services...</section>}>
+        <WhatWeOfferSection/>
+      </Suspense>
+      <Suspense fallback={<section className="w-full px-4 py-10 text-center" role="status">Loading conditions...</section>}>
+        <Conditions/>
+      </Suspense>
       <Suspense
         fallback={
           <section
@@ -43,8 +47,12 @@ export default function Home() {
       >
         <SanityProducts />
       </Suspense>
-      <TestimonialBentoSection />
-      <FAQ />
+      <Suspense fallback={<section className="w-full px-4 py-10 text-center" role="status">Loading testimonials...</section>}>
+        <TestimonialBentoSection />
+      </Suspense>
+      <Suspense fallback={<section className="w-full px-4 py-10 text-center" role="status">Loading FAQs...</section>}>
+        <FAQ />
+      </Suspense>
       <OurNewsLatter />
       <Footer />
     </div>

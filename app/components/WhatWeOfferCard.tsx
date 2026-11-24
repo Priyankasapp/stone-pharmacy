@@ -6,7 +6,7 @@ const WhatWeOfferCard = ({ title, image, description }: HealtyData) => {
   const imageSource =
     typeof image === "string"
       ? image
-      : "src" in image
+      : "src" in image && typeof image.src === "string"
         ? image.src
         : urlFor(image).width(960).height(720).fit("crop").url();
 
