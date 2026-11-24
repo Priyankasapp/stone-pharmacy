@@ -5,6 +5,7 @@ import { seoType } from './seoType'
 import { faqType } from './faqType'
 import { HealthType } from './healthyType'
 import { service } from './service'
+import { Testtimonial } from './testimonialType'
 
 export const schema: { types: SchemaTypeDefinition[] } = {
   types: [
@@ -13,7 +14,8 @@ export const schema: { types: SchemaTypeDefinition[] } = {
     seoType,
     faqType,
     HealthType,
-    service
+    service,
+    Testtimonial
     
   ],
 }

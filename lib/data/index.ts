@@ -1,16 +1,10 @@
-import {  HeroSectionData, NavLinks,  Services, Steps, TestimonialData } from "../types";
+import {  HeroSectionData, NavLinks,  Services } from "../types";
 
 import photo1 from "../../public/images/photo1.svg";
 import photo2 from "../../public/images/photo2.png";
 import photo3 from "../../public/images/photo3.jpg";
 import photo4 from "../../public/images/photo4.png";
 
-import avtarone from "../../public/images/Marca.jpeg";
-import avtartwo from "../../public/images/Masha.jpeg";
-import StepOne from "../../public/images/step1.png";
-import StepTwo from "../../public/images/step2.png";
-import StepThree from "../../public/images/step3.png";
-import StepFour from "../../public/images/step4.png";
 import WeightManagement from "../../public/images/WeightManagement.png";
 import TravelVaccine from "../../public/images/TravelVaccine.png";
 import Contraception from "../../public/images/Contraception.png";
@@ -84,19 +78,6 @@ export const heroData: HeroSectionData[] = [
 ]
 
 
-export const testimonialData:TestimonialData[]=[
-    {
-        name:"Marina Lewis",
-        desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, obcaecati recusandae eius itaque vitae enim error delectus nobis, temporibus corporis nesciunt reiciendis aspernatur, beatae fuga ullam dolore sit esse excepturi?",
-        img:avtarone
-    },
-    {
-        name:"Marca",
-        desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, obcaecati recusandae eius itaque vitae enim error delectus nobis, temporibus corporis nesciunt reiciendis aspernatur, beatae fuga ullam dolore sit esse excepturi",
-        img:avtartwo
-    }
-]
-
 export const services:Services[]=[
    {
             id: 1,
@@ -115,32 +96,5 @@ export const services:Services[]=[
             title: "Contraception Service",
             text: "Find convenient contraception services at your local pharmacy. Get personalised advice and options without a doctor visit.",
             img: Contraception
-        },
-]
-
-export const steps:Steps[] = [
- {
-            id: 1,
-            title: "Pick your condition",
-            text: "Just let us know what's wrong, like a cough, pain, or a medication question. We'll guide you from there.",
-            img: StepOne
-        },
-        {
-            id: 2,
-            title: "Answer few questions",
-            text: "A quick and simple form to help us understand your needs better. It won't take long!",
-            img: StepTwo
-        },
-        {
-            id: 3,
-            title: "Schedule an appointment",
-            text: "Choose a time that works best for you—it's simple and hassle-free.",
-            img: StepThree,
-        },
-        {
-            id: 4,
-            title: "Recieve expert care",
-            text: "Speak with a friendly clinician who will help you feel better with the right advice and treatment.",
-            img:StepFour,
         },
 ]

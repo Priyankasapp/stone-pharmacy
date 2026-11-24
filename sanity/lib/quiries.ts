@@ -66,10 +66,19 @@ export const faqQuery = groq `
 
 
 export const serviceQuery = groq `
-*[_type == 'service']{
+*[_type == 'service'] | order(order asc){
+  _id,
   order,
-  image,
+  image{..., "alt": alt},
   text,
   title
 }
   `
+
+  export const testimonialQuery = groq `
+  *[_type == "testimonial"] | order(_createdAt asc){
+  _id,
+  name,
+  quots,
+  "avatarUrl": avtar.asset->url
+}`

@@ -67,10 +67,11 @@ export type ButtonType = {
     children: string | React.ReactNode
 }
 
-export interface TestimonialData{
-    name:string;
-    desc:string;
-    img:string|StaticImageData;
+export interface TestimonialData {
+    _id: string;
+    name: string;
+    quots: string;
+    avatarUrl?: string | null;
 }
 
 export interface Services{
@@ -86,4 +87,3 @@ export interface Steps{
     text:string;
     img:string | StaticImageData;
 }
-
