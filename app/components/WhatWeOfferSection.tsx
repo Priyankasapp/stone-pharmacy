@@ -1,7 +1,12 @@
-import { healthyData } from '@/lib/data'
-import WhatWeOfferCard from './WhatWeOfferCard'
 
-const WhatWeOfferSection = () => {
+import WhatWeOfferCard from './WhatWeOfferCard'
+import { client } from '@/sanity/lib/client';
+import { healthyQuery } from '@/sanity/lib/quiries';
+import { HealtyData } from '@/lib/types';
+
+const WhatWeOfferSection = async () => {
+  const healthyData: HealtyData[] = await client.fetch(healthyQuery);
+  console.log(healthyData);
   return (
     <section className="w-full px-4 py-10 sm:px-6 sm:py-14 lg:px-8 lg:py-16">
       <div className="mx-auto flex w-full max-w-[1098px] flex-col gap-6 sm:gap-8">

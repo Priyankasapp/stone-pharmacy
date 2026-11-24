@@ -1,7 +1,5 @@
-import { FaqsData, HealtyData, HeroSectionData, NavLinks, ProductData, Services, Steps, TestimonialData } from "../types";
-import img1 from "../../public/images/image (1).svg";
-import img2 from "../../public/images/image (2).svg";
-import img3 from "../../public/images/image (3).svg";
+import {  HeroSectionData, NavLinks,  Services, Steps, TestimonialData } from "../types";
+
 import photo1 from "../../public/images/photo1.svg";
 import photo2 from "../../public/images/photo2.png";
 import photo3 from "../../public/images/photo3.jpg";
@@ -41,53 +39,6 @@ export const navLink: NavLinks[] = [
     
 
 ]
-
-export const faqsData: FaqsData[] = [
-    {
-        id:'',
-        question:'How can Pharmacy First save time?',
-        answer:'Pharmacy First will help you get seen by a  healthcare professional quickly.Instead of waiting for a GP appointment, going to A&E or attending out-of-hours NHS services '
-    },
-    {
-        id:'',
-        question:'What are the benefits of Pharmacy First?',
-        answer:''
-    },
-    {
-        id:'',
-        question:'How can Pharmacy First save time?',
-        answer:''
-    },
-    {
-        id:'',
-        question:'How can Pharmacy First save time?',
-        answer:''
-    },
-    {
-        id:'',
-        question:'How can Pharmacy First save time?',
-        answer:''
-    }
-]
-
-export const healthyData: HealtyData[] = [
-    {
-        title:'Weight Management',
-        description:'Personalised support to help you archive your weight goals, your perfact diet plan including expert advice and treatment options.',
-        image:img1,
-    },
-    {
-        title:'Travel Vaccination',
-        description:'Stay protected on your travels with essential vaccines, medicines and health advice tailored to your desctination.',
-        image:img2,
-    },
-    {
-        title:'Contraception Service',
-        description:'Find convenient contraception services at your local pharmacy. Get personalised advice and options without a doctor visit.',
-        image:img3,
-    }
-]
-
 
 export const heroData: HeroSectionData[] = [
      {

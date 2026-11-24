@@ -45,3 +45,31 @@ export const productBySlugQuery = groq `
         }
     }
 `;
+
+export const faqQuery = groq `
+    *[_type == "faq"]{
+  _id,
+  question,
+  answer
+}
+  `
+
+  export const healthyQuery = groq `
+  *[_type == "healthyData"]{
+  image,
+  _id,
+  description,
+  title
+}
+
+`
+
+
+export const serviceQuery = groq `
+*[_type == 'service']{
+  order,
+  image,
+  text,
+  title
+}
+  `

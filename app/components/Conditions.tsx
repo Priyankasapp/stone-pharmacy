@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/rules-of-hooks */
+/* eslint-disable @next/next/no-async-client-component */
 "use client";
 import Image from "next/image";
 
@@ -6,8 +8,12 @@ import { VectorOne, VectorTwo } from "./icons/VectorIcon";
 import { useEffect, useState } from "react";
 import { IconTick } from "./icons/IconTrick";
 import { steps } from "@/lib/data";
+import { serviceQuery } from "@/sanity/lib/quiries";
+import { Steps } from "@/lib/types";
+import { client } from "@/sanity/lib/client";
 
-const WhatWeOffer = () => {
+const WhatWeOffer = async () =>  {
+  const conditionData: Steps[] = await client.fetch(serviceQuery)
   const [stepNo, setStepNo] = useState<number>(1);
 
   const currentStep = steps.find((s) => s.id === stepNo);

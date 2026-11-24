@@ -1,15 +1,24 @@
 import Image from "next/image";
 import type { HealtyData } from "@/lib/types";
+import { urlFor } from "@/sanity/lib/image";
 
 const WhatWeOfferCard = ({ title, image, description }: HealtyData) => {
+  const imageSource =
+    typeof image === "string"
+      ? image
+      : "src" in image
+        ? image.src
+        : urlFor(image).width(960).height(720).fit("crop").url();
+
   return (
     <article className="flex h-full w-full flex-col gap-5 rounded-2xl border border-ice-blue p-4 sm:gap-6 sm:p-6">
-      <div className="w-full overflow-hidden rounded-xl">
+      <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl">
         <Image
-          src={image}
-          alt=""
+          src={imageSource}
+          alt={title}
+          fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 350px"
-          className="h-auto w-full object-cover"
+          className="object-cover"
         />
       </div>
       <div className="flex flex-1 flex-col gap-3">

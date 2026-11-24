@@ -8,6 +8,7 @@ export interface NavLinks {
     
 }
 export interface FaqsData{
+    __id:  | null | undefined;
     id: string;
     question:string;
     answer?:string;
@@ -43,7 +44,8 @@ export interface ProductData {
   seo?: SeoData;
 }
 export interface HealtyData {
-    image:string|StaticImageData;
+    
+  image: Image | StaticImageData | string;
     description:string;
     title:string;
 }
