@@ -38,18 +38,18 @@ const ConditionsClient = ({ conditions }: { conditions: Condition[] }) => {
             <span className="absolute left-10 z-0">
               <VectorOne />
             </span>
-            <span className="absolute top-5 w-full">
+            <span className="absolute top-10 w-full">
               <VectorTwo />
             </span>
 
-            <ul className="relative top-10 flex flex-col">
+            <ul className="relative top-12 flex flex-col">
               {conditions.map((condition, index) => {
                 const isActive = index === currentIndex;
 
                 return (
-                  <li key={condition._id} className="flex flex-col">
+                  <li key={condition._id} className="flex flex-col ">
                     <div
-                      className={`top-5 flex gap-8 py-3 pl-20 font-poppins text-base transition-all duration-300 ${
+                      className={` flex gap-8 py-3 pl-20 font-poppins text-base transition-all duration-300 ${
                         isActive
                           ? "font-[600] text-text-primary"
                           : "font-[400] text-dark-bg/60"
@@ -62,7 +62,7 @@ const ConditionsClient = ({ conditions }: { conditions: Condition[] }) => {
                         {isActive && <IconTick className="shrink-0" />}
                       </span>
                     </div>
-                    <span className="pointer-events-none w-full pb-5">
+                    <span className="pointer-events-none w-full pb-0">
                       <VectorTwo />
                     </span>
                   </li>

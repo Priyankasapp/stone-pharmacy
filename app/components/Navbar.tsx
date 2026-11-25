@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <nav
       aria-label="Main navigation"
-      className="fixed left-3 right-3 top-3 z-50 mx-auto max-w-[1440px] rounded-[28px] border border-neutral-200/30 bg-white px-3 py-2 shadow-[0_8px_30px_rgb(0,0,0,0.04),0_1px_2px_rgba(0,0,0,0.02)] sm:left-6 sm:right-6 sm:px-6 xl:top-6 xl:rounded-full xl:py-0"
+      className="fixed left-3 right-3 top-3 z-50 mx-auto  max-w-[1320px] rounded-[28px] border border-neutral-200/30 bg-white px-3 py-2 shadow-[0_8px_30px_rgb(0,0,0,0.04),0_1px_2px_rgba(0,0,0,0.02)] sm:left-6 sm:right-6 sm:px-6 xl:top-6 xl:rounded-full xl:py-0"
     >
       <div className="flex h-14 items-center justify-between xl:h-20">
         <div className="flex cursor-pointer">
