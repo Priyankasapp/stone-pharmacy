@@ -35,7 +35,7 @@ const TestimonialBentoClient = ({
 
   return (
     <section className="relative flex w-full items-center justify-center px-4 py-10 sm:py-14 lg:px-8">
-      <span className="pointer-events-none absolute hidden sm:block">
+      <span className="pointer-events-none absolute sm:block">
         <Frame />
       </span>
 

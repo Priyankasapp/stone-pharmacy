@@ -101,7 +101,7 @@ export const productType = defineType({
      defineField({
       name: "seo",
       title: "SEO Settings",
-      type: "seo",
+      type: "seoFields",
     }),
 
     ],

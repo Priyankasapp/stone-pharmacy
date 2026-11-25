@@ -1,28 +1,52 @@
-'use client'
+"use client";
 
-/**
- * This configuration is used to for the Sanity Studio that’s mounted on the `/app/studio/[[...tool]]/page.tsx` route
- */
 
-import {visionTool} from '@sanity/vision'
-import {defineConfig} from 'sanity'
-import {structureTool} from 'sanity/structure'
-
-// Go to https://www.sanity.io/docs/api-versioning to learn how API versioning works
-import {apiVersion, dataset, projectId} from './sanity/env'
-import {schema} from './sanity/schemaTypes'
-import {structure} from './sanity/structure'
+import { visionTool } from "@sanity/vision";
+import { defineConfig } from "sanity";
+import { structureTool } from "sanity/structure";
+import seofields from "sanity-plugin-seofields";
+import { apiVersion, dataset, projectId } from "./sanity/env";
+import { schema } from "./sanity/schemaTypes";
+import { structure } from "./sanity/structure";
 
 export default defineConfig({
-  basePath: '/studio',
+  name:"stone-pharmacy-studio",
+  title:"Stone Pharmacy Studio",
+  basePath: "/studio",
   projectId,
   dataset,
-  // Add and edit the content schema in the './sanity/schemaTypes' folder
   schema,
   plugins: [
-    structureTool({structure}),
-    // Vision is for querying with GROQ from inside the Studio
-    // https://www.sanity.io/docs/the-vision-plugin
-    visionTool({defaultApiVersion: apiVersion}),
+    seofields({
+      healthDashboard: false,
+      geo: false,
+      fieldGroups: [
+        {
+          name: "meta",
+          title: "Meta",
+          default: true,
+          fields: [
+            "title",
+            "description",
+            "metaImage",
+            "keywords",
+            "canonicalUrl",
+            "robots",
+          ],
+        },
+        {
+          name: "openGraph",
+          title: "Open Graph",
+          fields: ["openGraph"],
+        },
+        {
+          name: "twitter",
+          title: "Twitter / X",
+          fields: ["twitter"],
+        },
+      ],
+    }),
+    structureTool({ structure }),
+    visionTool({ defaultApiVersion: apiVersion }),
   ],
-})
+});

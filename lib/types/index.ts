@@ -17,7 +17,17 @@ export interface FaqsData{
 export interface SeoData {
   title?: string;
   description?: string;
-  image?: Image | StaticImageData | string;
+  metaImage?: Image | StaticImageData | string;
+  keywords?: string[];
+  canonicalUrl?: string;
+  robots?: {
+    noIndex?: boolean;
+    noFollow?: boolean;
+    noTranslate?: boolean;
+    noImageIndex?: boolean;
+  };
+  openGraph?: Record<string, unknown>;
+  twitter?: Record<string, unknown>;
 }
 export interface CategoryRef {
   _id: string;

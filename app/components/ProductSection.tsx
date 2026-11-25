@@ -53,7 +53,7 @@ const ProductSection = ({ products = [] }: ProductSectionProps) => {
       <div className="mx-auto w-full max-w-[1098px]">
         <h2
           id="products-heading"
-          className="mb-6 font-nightSerif text-center text-2xl font-semibold text-dark-charcoal sm:text-3xl"
+          className="mb-6 font-nightSerif font-[400] text-center text-3xl  text-dark-charcoal sm:text-[36px]"
         >
           Best Selling Products
         </h2>

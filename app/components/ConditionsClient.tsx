@@ -73,14 +73,14 @@ const ConditionsClient = ({ conditions }: { conditions: Condition[] }) => {
         </div>
 
         <div className="relative flex w-full max-w-[447px] flex-col items-center overflow-hidden rounded-2xl border border-button-text/30 bg-[#F9FBFA] p-4 sm:p-5 lg:block lg:max-w-none lg:w-3/8 lg:items-stretch lg:rounded-none lg:border-0 lg:bg-transparent lg:p-0">
-          <div className="relative hidden h-full w-full items-center lg:block">
+          <div className="relative hidden h-full min-h-[320px] w-full items-center lg:block">
             {currentCondition.imageUrl && (
               <Image
                 src={currentCondition.imageUrl}
                 alt={currentCondition.title}
-                width={1000}
-                height={1000}
-                className="h-[320px] w-auto opacity-55"
+                width={2000}
+                height={2000}
+                className="absolute right-0 top-0 h-[388px]  w-[556px] opacity-55"
               />
             )}
             <div

@@ -18,7 +18,12 @@ export const productsQuery = groq `
         seo{
             title,
             description,
-            image
+            metaImage,
+            keywords,
+            canonicalUrl,
+            robots,
+            openGraph,
+            twitter
         }
     }
 `;
@@ -41,7 +46,12 @@ export const productBySlugQuery = groq `
         seo{
         title,
         description,
-        image
+        metaImage,
+        keywords,
+        canonicalUrl,
+        robots,
+        openGraph,
+        twitter
         }
     }
 `;

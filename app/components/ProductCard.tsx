@@ -79,7 +79,7 @@ const ProductCard = ({
           <div className="flex justify-between items-center">
             <div>
               <p>
-                <span className="text-card-blue">£{price}</span>/pack
+                <span className="text-card-blue text-[24px]">£{price}</span>/pack
               </p>{" "}
               {originalPrice && (
                 <span className="font-[400]">Was £{originalPrice.toFixed(2)} </span>
