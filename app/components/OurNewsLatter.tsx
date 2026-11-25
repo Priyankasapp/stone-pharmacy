@@ -2,8 +2,8 @@ import PlusIcon from "./icons/PlusIcon";
 
 const OurNewsLatter = () => {
   return (
-    <section className="flex w-full justify-center px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
-      <div className="relative w-full max-w-[1098px] overflow-hidden rounded-2xl bg-[linear-gradient(93.23deg,rgba(153,255,255,0.6)_0.34%,rgba(201,255,201,0.6)_100%)] p-5 sm:p-8 lg:p-12 before:pointer-events-none before:absolute before:inset-0 before:rounded-2xl before:p-[1px] before:content-[''] before:[background:linear-gradient(90deg,rgba(0,163,163,0.4)_0%,rgba(0,128,0,0.4)_100%)] before:[-webkit-mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[-webkit-mask-composite:xor] before:[mask-composite:exclude]">
+    <section className="flex w-full justify-center mb-[55px]">
+    <div className="relative pt-[48px] pr-[48px] pb-[48px] pl-[24px] w-full max-w-[1098px] overflow-hidden rounded-2xl bg-[linear-gradient(93.23deg,rgba(153,255,255,0.6)_0.34%,rgba(201,255,201,0.6)_100%)] before:pointer-events-none before:absolute before:inset-0 before:rounded-2xl before:p-[1px] before:content-[''] before:[background:linear-gradient(90deg,rgba(0,163,163,0.4)_0%,rgba(0,128,0,0.4)_100%)] before:[-webkit-mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[-webkit-mask-composite:xor] before:[mask-composite:exclude]">
         <span className="pointer-events-none absolute right-0 top-0 [&>svg]:h-auto [&>svg]:w-20 sm:[&>svg]:w-32 lg:[&>svg]:w-[220px]">
           <PlusIcon />
         </span>

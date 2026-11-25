@@ -65,14 +65,33 @@ const Footer = () => {
             <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-x-8">
               <div className="flex flex-col gap-2 text-sm font-[400] text-white">
                 <p>Monday - Friday</p>
-                <p>Saturday</p>
-                <p>Sunday</p>
+                
               </div>
               <div className="flex flex-col gap-2 text-sm font-[400] text-white">
                 <p>09:00AM to 06:00PM</p>
+                
+              </div>
+               <div className="flex flex-col gap-2 text-sm font-[400] text-white">
+               
+                <p>Saturday</p>
+                
+              </div>
+              <div className="flex flex-col gap-2 text-sm font-[400] text-white">
+             
                 <p>11:00AM to 03:00PM</p>
+                
+              </div>
+               <div className="flex flex-col gap-2 text-sm font-[400] text-white">
+               
+               
+                <p>Sunday</p>
+              </div>
+              <div className="flex flex-col gap-2 text-sm font-[400] text-white">
+             
+               
                 <p>Emergency Only</p>
               </div>
+              
             </div>
           </div>
         </div>
