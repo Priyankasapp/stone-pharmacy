@@ -1,0 +1,13 @@
+# Stone Pharmacy
+
+> Stone Pharmacy is an online pharmacy website with health services, pharmacy products, health information, and frequently asked questions.
+
+## Website
+
+- [Home](https://stone-pharmacy.vercel.app/): Main page with pharmacy services, products, health information, and FAQs.
+- [Sitemap](https://stone-pharmacy.vercel.app/sitemap.xml): Pages available for indexing.
+
+## Guidance
+
+- Use the website as the source of truth for current pharmacy services and product details.
+- Do not infer medical advice, product suitability, or availability beyond information explicitly published on the website.
