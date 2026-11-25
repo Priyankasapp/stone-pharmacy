@@ -41,10 +41,10 @@ const TestimonialBentoClient = ({
 
       <div className="relative flex w-full max-w-[1098px] flex-col items-center justify-center">
         <div className="relative mb-6 w-full sm:mb-8">
-          <h2 className="nightSerif text-center text-2xl font-[400] leading-tight sm:text-3xl lg:text-[36px]">
+          <h2 className="font-nightSerif text-center text-2xl font-[400] leading-tight sm:text-3xl lg:text-[36px]">
             Trusted by Patients, Honoured by the Industry
           </h2>
-          <span className="absolute left-[107px] top-3 hidden sm:block">
+          <span className="absolute left-[165px] top-3 hidden sm:block">
             <SparkLines />
           </span>
           <span className="absolute right-[38%] top-6 hidden sm:block">
