@@ -48,7 +48,7 @@ const ProductSection = ({ products = [] }: ProductSectionProps) => {
     <section
       id="products"
       aria-labelledby="products-heading"
-      className="flex w-full  px-4 py-10 sm:px-6 lg:px-10 xl:px-16"
+      className="flex flex-col justify-center items-center gap-[32px] w-full  px-4 py-10 sm:px-6 lg:px-10 xl:px-16"
     >
       <div className="mx-auto w-full max-w-[1098px]">
         <h2
@@ -64,7 +64,7 @@ const ProductSection = ({ products = [] }: ProductSectionProps) => {
               type="button"
               aria-label="Previous products"
               onClick={goPrev}
-              className="absolute -left-3 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-gray-200 bg-white text-dark-charcoal shadow-md transition hover:bg-gray-50 sm:-left-5"
+              className="absolute -left-3 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center border-none  text-dark-charcoal  transition  sm:-left-5"
             >
               <ChevronLeft />
             </button>
@@ -105,13 +105,16 @@ const ProductSection = ({ products = [] }: ProductSectionProps) => {
               type="button"
               aria-label="Next product"
               onClick={goNext}
-              className="absolute -right-3 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-gray-200 bg-white text-dark-charcoal shadow-md transition hover:bg-gray-50 sm:-right-5"
+              className="absolute -right-3 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center  border-none text-dark-charcoal  transition  sm:-right-5"
             >
               <ChevronRight />
             </button>
           )}
         </div>
       </div>
+       <button className="flex h-full max-h-[47px] w-full max-w-[240px] cursor-pointer items-center justify-center gap-8 rounded-[12px] border-2 border-black bg-[linear-gradient(180deg,#3E3D3E_0%,#403E40_79.91%,#5E5D5E_100%)] px-[24px] py-[10px] font-poppins text-[18px] font-[600] text-ice-blue">
+        View All
+      </button>
     </section>
   );
 };
